@@ -137,3 +137,19 @@ ggplot(res, aes(x = rat)) + geom_density() +
   theme_classic() + 
   labs(x = 'Estimate', y = 'Density')
 ```
+
+## Conclusion
+
+What can we get from all of this?
+
+Well, I think it's kind of neat that this offers a potential way to identify a causal effect without so many of the assumptions that we typically rely on and seem impossible to get around without some sort of quasiexperimental design. 
+
+At least the way I'm thinking about it, this is basically a way of managing to control for unobserved confounders using observed confounders.
+
+Of course, that's not entirely true. You could call this a quasiexperimental design, really. I mean, it reduces mathematically to 2SLS at least in some formulations. But the assumptions that stand in here for the exclusion restriction feel so different that it seems like a very different kind of thing.
+
+There are the downsides, of course. The obvious one being "where the heck would we expect these assumptions to hold?" The variance of treatment is related to the value of another, sure. But we aren't used to thinking about *no*-heteroskedasticity assumptions, i.e. the assumption here that the variance of the unobserved confounder $W$ is unrelated to $Z$ (and in a case where maybe even the mean of $W$ *is* related to $Z$! Since if that's not true we may as well just use *regular* IV).
+
+I'm not even sure the downside here is how unlikely the assumptions are so much as *I'm not even sure how to reason about where I'd expect these assumptions to hold*. I have too much experience working with uncorrelatedness assumptions. I'm not sure what a "the unobserved confounder's variance is unrelated to this other variable's value" assumption *feels* like or how to judge whether that assumption is plausible.
+
+So maybe it's just sorta neat rather than useful. This process feels a little like cheating, and I love a statistical method that feels like cheating. Plus I got to derive a Wald from the quadratic, which was fun. Then again, the different kind of assumption it calls for suggests that maybe there *are* situations where this applies, and I just don't know where to look for them yet! Let me know if you think of one!
