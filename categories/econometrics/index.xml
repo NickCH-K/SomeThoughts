@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>econometrics on Some Thoughts I&#39;ve Had</title>
+    <link>https://nickch-k.github.io/SomeThoughts/categories/econometrics/</link>
+    <description>Recent content in econometrics on Some Thoughts I&#39;ve Had</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 12 Nov 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://nickch-k.github.io/SomeThoughts/categories/econometrics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Identification by Heteroskedasticity</title>
+      <link>https://nickch-k.github.io/SomeThoughts/2021/11/12/identification-by-heteroskedasticity/</link>
+      <pubDate>Fri, 12 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://nickch-k.github.io/SomeThoughts/2021/11/12/identification-by-heteroskedasticity/</guid>
+      <description>Since posting this on Twitter I have learned that this idea is in fact approximately 20 years old, and has had a number of papers by Lewbel. Ah, and yet.
+In this article I will produce a sketch to demonstrate an entirely new approach to identifying a causal effect that relies on an entirely different set of assumptions from what you’d normally see. Why am I introducing this via blog rather than in an academic publication?</description>
+    </item>
+    
+  </channel>
+</rss>

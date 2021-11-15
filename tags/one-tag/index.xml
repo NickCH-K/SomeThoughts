@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>one tag on Some Thoughts I&#39;ve Had</title>
+    <link>https://nickch-k.github.io/SomeThoughts/tags/one-tag/</link>
+    <description>Recent content in one tag on Some Thoughts I&#39;ve Had</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 15 Nov 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://nickch-k.github.io/SomeThoughts/tags/one-tag/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Identification by Heteroskedasticity</title>
+      <link>https://nickch-k.github.io/SomeThoughts/2021/11/15/identification-by-heteroskedasticity/</link>
+      <pubDate>Mon, 15 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://nickch-k.github.io/SomeThoughts/2021/11/15/identification-by-heteroskedasticity/</guid>
+      <description>Identification via HeteroskedasticityIn this article I will produce a sketch to demonstrate an entirely new approach to identifying a causal effect that relies on an entirely different set of assumptions from what you’d normally see. Why am I introducing this via blog rather than in an academic publication? Simply, if I put the time into developing this into an academic publication, I can tell you exactly what the reviewers would say: “okay, sure, but in what context do these different assumptions actually hold?</description>
+    </item>
+    
+  </channel>
+</rss>
