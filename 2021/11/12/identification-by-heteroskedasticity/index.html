@@ -1,80 +1,74 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en-us">
-  <head>
+
+<head>
     <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="generator" content="Hugo 0.89.2" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title> Identification by Heteroskedasticity - Some Thoughts I&#39;ve Had </title>
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta name="referrer" content="no-referrer">
+    <meta name="description" content="A basic idea for identifying causal effects using heteroskedasticity" />
+    <meta property="og:site_name" content="Some Thoughts I&#39;ve Had" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://nickch-k.github.io/SomeThoughts/2021/11/12/identification-by-heteroskedasticity/" />
+    <meta property="og:title" content="Identification by Heteroskedasticity" />
+    <meta property="og:image" content="https://nickch-k.github.io/SomeThoughtsimages/image.png" />
+    <meta property="og:description" content="A basic idea for identifying causal effects using heteroskedasticity" />
 
-
-<title>Identification by Heteroskedasticity - Some Thoughts I&#39;ve Had</title>
-<meta property="og:title" content="Identification by Heteroskedasticity - Some Thoughts I&#39;ve Had">
-
-
-  <link href='https://nickch-k.github.io/SomeThoughts/favicon.ico' rel='icon' type='image/x-icon'/>
-
-
-
-  
-  <meta property="description" content="A basic idea for identifying causal effects using heteroskedasticity">
-  
-
-
-
-
-
-
-
-
-<link href='//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css' rel='stylesheet' type='text/css' />
-
-
-
-<link rel="stylesheet" href="/SomeThoughts/css/fonts.css" media="all">
-<link rel="stylesheet" href="/SomeThoughts/css/main.css" media="all">
-
-
-
-  </head>
-  <body>
-    <div class="wrapper">
-      <header class="header">
-        <nav class="nav">
-  <a href="/SomeThoughts/" class="nav-logo">
-    <img src="/SomeThoughts/images/logo.png"
-         width="50"
-         height="50"
-         alt="Logo">
-  </a>
-
-  <ul class="nav-links">
+    <meta name="twitter:card" content="summary_large_image" />
     
-    <li><a href="https://github.com/NickCH-K">GitHub</a></li>
-    
-    <li><a href="https://www.nickchk.com">Main Site</a></li>
-    
-    <li><a href="https://twitter.com/nickchk">Twitter</a></li>
-    
-  </ul>
-</nav>
+    <meta name="twitter:title" content="Identification by Heteroskedasticity" />
+    <meta name="twitter:description" content="A basic idea for identifying causal effects using heteroskedasticity" />
+    <meta name="twitter:image" content="https://nickch-k.github.io/SomeThoughtsimages/image.png" />
 
-      </header>
+    <link rel="canonical" href="https://nickch-k.github.io/SomeThoughts/2021/11/12/identification-by-heteroskedasticity/">
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha512-MoRNloxbStBcD8z3M/2BmnT+rg4IsMxPkXaGh2zD6LGNNFE80W3onsAhRcMAMrSoyWL9xD7Ert0men7vR8LUZg==" crossorigin="anonymous" />
 
-<main class="content" role="main">
+    <link rel="stylesheet" href="https://nickch-k.github.io/SomeThoughtscss/custom.css" />
 
-  <article class="article">
-    
-    <span class="article-duration">9 min read</span>
     
 
-    <h1 class="article-title">Identification by Heteroskedasticity</h1>
-
-    
-    <span class="article-date">2021-11-12</span>
     
 
-    <div class="article-content">
-      
+    <link rel="shortcut icon"
+        href="https://nickch-k.github.io/SomeThoughtsimages/favicon.png">
+
+    
+    <link href="https://nickch-k.github.io/SomeThoughts/index.xml" rel="alternate" type="application/rss+xml" title="Some Thoughts I&#39;ve Had" />
+    
+</head>
+
+<body>
+    
+    <div class="mt-xl header">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-auto">
+                <a href="https://nickch-k.github.io/SomeThoughts">
+                    <h1 class="name"></h1>
+                </a>
+            </div>
+        </div>
+
+        <div class="row justify-content-center">
+            <ul class="nav nav-primary">
+                
+            </ul>
+        </div>
+    </div>
+</div>
+
+    <div class="content">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-sm-12 col-lg-8">
+                    <h1 class="mx-0 mx-md-4">Identification by Heteroskedasticity</h1>
+                    <div class="markdown">
+                        
+    
 <script src="https://nickch-k.github.io/SomeThoughts/2021/11/12/identification-by-heteroskedasticity/index_files/header-attrs/header-attrs.js"></script>
 <script src="https://nickch-k.github.io/SomeThoughts/2021/11/12/identification-by-heteroskedasticity/index_files/kePrint/kePrint.js"></script>
 <link href="https://nickch-k.github.io/SomeThoughts/2021/11/12/identification-by-heteroskedasticity/index_files/lightable/lightable.css" rel="stylesheet" />
@@ -248,46 +242,40 @@ rat
 <p>So maybe it’s just sorta neat rather than useful. This process feels a little like cheating, and I love a statistical method that feels like cheating. Plus I got to derive a Wald from the quadratic, which was fun. Then again, the different kind of assumption it calls for suggests that maybe there <em>are</em> situations where this applies, and I just don’t know where to look for them yet! Let me know if you think of one!</p>
 </div>
 
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-  </article>
 
-  
-
-
-</main>
-
-      <footer class="footer">
-        <ul class="footer-links">
-          <li>
-            <a href="/SomeThoughts/index.xml" type="application/rss+xml" target="_blank">RSS feed</a>
-          </li>
-          <li>
-            <a href="https://gohugo.io/" class="footer-links-kudos">Made with <img src="/SomeThoughts/images/hugo-logo.png" alt="Img link to Hugo website" width="22" height="22"></a>
-          </li>
-        </ul>
-      </footer>
-
+    <section id="comments">
+    <div class="py-3 content">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-sm-12 col-lg-8">
+                    <div class="comments">
+                        <script src="https://utteranc.es/client.js" repo=""
+                            issue-term="pathname" label="comment" theme="github-light" crossorigin="anonymous" async>
+                            </script>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
+</section>
     
 
 
-
-<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
-
-
-
-<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/r.min.js"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/yaml.min.js"></script>
-<script>hljs.configure({languages: []}); hljs.initHighlightingOnLoad();</script>
-
-
+    
 
     
-<script src="/SomeThoughts/js/math-code.js"></script>
-<script async src="//cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML"></script>
-
 
     
-  </body>
+
+    
+    
+</body>
+
 </html>
-
