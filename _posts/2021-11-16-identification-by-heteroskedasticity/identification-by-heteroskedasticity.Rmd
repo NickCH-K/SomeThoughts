@@ -18,6 +18,8 @@ knitr::opts_chunk$set(echo = FALSE)
 
 # Identification via Heteroskedasticity
 
+*Note: after posting this on Twitter it became very apparent that I did not invent this idea, and if you want to explore it further I recommend a number of papers by [Arthur Lewbel](https://www.tandfonline.com/doi/full/10.1080/07350015.2012.643126) on this topic. But perhaps you will still find the intuitive explanation here useful.*
+
 In this article I will produce a sketch to  demonstrate an entirely new approach to identifying a causal effect that relies on an entirely different set of assumptions from what you'd normally see. Why am I introducing this via blog rather than in an academic publication? Simply, if I put the time into developing this into an academic publication, I can tell you exactly what the reviewers would say: "okay, sure, but in what context do these different assumptions actually hold?" and I'd give a big ol' shrug because I don't know. I still think it's pretty neat if only as a curiosity. And hey, if you're out there and thinking "hold on, I *do* actually know a context where this can be applied!" then please do get in contact with me. I'd love to hear about it, and maybe then I'd turn this into a paper.
 
 At this point, it's really just an idea. 
