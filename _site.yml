@@ -1,0 +1,19 @@
+name: "SomeThoughts"
+title: "Some Thoughts"
+description: |
+  This repository contains brief blog-like thoughts, usually on econometrics. And let's be honest, it's only a matter of time before it's abandoned.
+output_dir: "docs"
+base_url: https://nickch-k.github.io/SomeThoughts
+favicon: images/favicon.png
+navbar:
+  right:
+    - text: "Home"
+      href: index.html
+    - text: "About"
+      href: about.html
+    - icon: fa fa-rss
+      href: index.xml
+output: distill::distill_article
+collections:
+  posts:
+    share: [twitter, linkedin, facebook]

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+  <channel>
+    <title>Some Thoughts</title>
+    <link>https://nickch-k.github.io/SomeThoughts</link>
+    <atom:link href="https://nickch-k.github.io/SomeThoughts/index.xml" rel="self" type="application/rss+xml"/>
+    <description>This repository contains brief blog-like thoughts, usually on econometrics. And let's be honest, it's only a matter of time before it's abandoned.
+</description>
+    <image>
+      <title>Some Thoughts</title>
+      <url>https://nickch-k.github.io/SomeThoughts/images/favicon.png</url>
+      <link>https://nickch-k.github.io/SomeThoughts</link>
+    </image>
+    <generator>Distill</generator>
+    <lastBuildDate>Fri, 12 Nov 2021 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>Identification by Heteroskedasticity</title>
+      <dc:creator>Nick Huntington-Klein</dc:creator>
+      <dc:creator/>
+      <link>https://nickch-k.github.io/SomeThoughts/posts/2021-11-16-identification-by-heteroskedasticity</link>
+      <description>A brief note on a method for how we can identify a causal effect using assumptions about heteroskedasticity instead of correlations.</description>
+      <guid>https://nickch-k.github.io/SomeThoughts/posts/2021-11-16-identification-by-heteroskedasticity</guid>
+      <pubDate>Fri, 12 Nov 2021 00:00:00 +0000</pubDate>
+      <media:content url="https://nickch-k.github.io/SomeThoughts/posts/2021-11-16-identification-by-heteroskedasticity/identification-by-heteroskedasticity_files/figure-html5/unnamed-chunk-3-1.png" medium="image" type="image/png" width="1248" height="768"/>
+    </item>
+  </channel>
+</rss>

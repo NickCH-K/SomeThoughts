@@ -1,0 +1,9 @@
+---
+title: "About Some Thoughts"
+description: |
+  This repository contains brief blog-like thoughts, usually on econometrics. And let's be honest, it's only a matter of time before it's abandoned. My name is Nick Huntington-Klein, and I am an assistant professor of economics at Seattle University. I wrote The Effect, an introductory causal inference textbook.
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```

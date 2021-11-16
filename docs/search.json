@@ -1,0 +1,20 @@
+{
+  "articles": [
+    {
+      "path": "about.html",
+      "title": "About Some Thoughts",
+      "description": "This repository contains brief blog-like thoughts, usually on econometrics. And let's be honest, it's only a matter of time before it's abandoned. My name is Nick Huntington-Klein, and I am an assistant professor of economics at Seattle University. I wrote The Effect, an introductory causal inference textbook.",
+      "author": [],
+      "contents": "\r\n\r\n\r\n\r\n",
+      "last_modified": "2021-11-16T01:59:09-08:00"
+    },
+    {
+      "path": "index.html",
+      "title": "Some Thoughts",
+      "author": [],
+      "contents": "\r\n\r\nThis repository contains brief blog-like thoughts, usually on econometrics. And let’s be honest, it’s only a matter of time before it’s abandoned. My name is Nick Huntington-Klein, and I am an assistant professor of economics at Seattle University.\r\nYou can find more about me here. You can also check out more of my writing via my causal inference textbook The Effect which you should totally buy or at least read the free version I just linked.\r\nSay hello to the skewed dude. He’s okay about being here.\r\nThe skewed dude\r\n\r\n\r\n",
+      "last_modified": "2021-11-16T01:59:10-08:00"
+    }
+  ],
+  "collections": ["posts/posts.json"]
+}
