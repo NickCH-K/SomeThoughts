@@ -4,7 +4,7 @@ description: |
   A brief note on a method for how we can identify a causal effect using assumptions about heteroskedasticity instead of correlations.
 author:
   - name: Nick Huntington-Klein
-  - url: https://www.nickchk.com
+    url: {https://www.nickchk.com}
 date: 2021-11-12
 output:
   distill::distill_article:

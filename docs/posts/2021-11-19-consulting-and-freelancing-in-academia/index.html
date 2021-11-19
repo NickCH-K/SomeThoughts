@@ -1,0 +1,2295 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"/>
+  <meta name="generator" content="distill" />
+
+  <style type="text/css">
+  /* Hide doc at startup (prevent jankiness while JS renders/transforms) */
+  body {
+    visibility: hidden;
+  }
+  </style>
+
+ <!--radix_placeholder_import_source-->
+ <!--/radix_placeholder_import_source-->
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css" data-origin="pandoc">
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ad0000; } /* Alert */
+code span.an { color: #5e5e5e; } /* Annotation */
+code span.at { } /* Attribute */
+code span.bn { color: #ad0000; } /* BaseN */
+code span.bu { } /* BuiltIn */
+code span.cf { color: #007ba5; } /* ControlFlow */
+code span.ch { color: #20794d; } /* Char */
+code span.cn { color: #8f5902; } /* Constant */
+code span.co { color: #5e5e5e; } /* Comment */
+code span.cv { color: #5e5e5e; font-style: italic; } /* CommentVar */
+code span.do { color: #5e5e5e; font-style: italic; } /* Documentation */
+code span.dt { color: #ad0000; } /* DataType */
+code span.dv { color: #ad0000; } /* DecVal */
+code span.er { color: #ad0000; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #ad0000; } /* Float */
+code span.fu { color: #4758ab; } /* Function */
+code span.im { } /* Import */
+code span.in { color: #5e5e5e; } /* Information */
+code span.kw { color: #007ba5; } /* Keyword */
+code span.op { color: #5e5e5e; } /* Operator */
+code span.ot { color: #007ba5; } /* Other */
+code span.pp { color: #ad0000; } /* Preprocessor */
+code span.sc { color: #5e5e5e; } /* SpecialChar */
+code span.ss { color: #20794d; } /* SpecialString */
+code span.st { color: #20794d; } /* String */
+code span.va { color: #111111; } /* Variable */
+code span.vs { color: #20794d; } /* VerbatimString */
+code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
+</style>
+
+
+  <!--radix_placeholder_meta_tags-->
+<title>Some Thoughts: Consulting and Freelancing in Academia</title>
+
+<meta property="description" itemprop="description" content="A guide to getting started and doing well at consulting and freelancing, and avoiding some speed bumps. This is aimed squarely at people in academia who are good at working with data."/>
+
+<link rel="canonical" href="https://nickch-k.github.io/SomeThoughts/posts/2021-11-19-consulting-and-freelancing-in-academia/"/>
+<link rel="icon" type="image/png" href="../../images/favicon.png"/>
+
+<!--  https://schema.org/Article -->
+<meta property="article:published" itemprop="datePublished" content="2021-11-19"/>
+<meta property="article:created" itemprop="dateCreated" content="2021-11-19"/>
+<meta name="article:author" content="Nick Huntington-Klein"/>
+
+<!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
+<meta property="og:title" content="Some Thoughts: Consulting and Freelancing in Academia"/>
+<meta property="og:type" content="article"/>
+<meta property="og:description" content="A guide to getting started and doing well at consulting and freelancing, and avoiding some speed bumps. This is aimed squarely at people in academia who are good at working with data."/>
+<meta property="og:url" content="https://nickch-k.github.io/SomeThoughts/posts/2021-11-19-consulting-and-freelancing-in-academia/"/>
+<meta property="og:locale" content="en_US"/>
+<meta property="og:site_name" content="Some Thoughts"/>
+
+<!--  https://dev.twitter.com/cards/types/summary -->
+<meta property="twitter:card" content="summary"/>
+<meta property="twitter:title" content="Some Thoughts: Consulting and Freelancing in Academia"/>
+<meta property="twitter:description" content="A guide to getting started and doing well at consulting and freelancing, and avoiding some speed bumps. This is aimed squarely at people in academia who are good at working with data."/>
+<meta property="twitter:url" content="https://nickch-k.github.io/SomeThoughts/posts/2021-11-19-consulting-and-freelancing-in-academia/"/>
+
+<!--  https://scholar.google.com/intl/en/scholar/inclusion.html#indexing -->
+<meta name="citation_title" content="Some Thoughts: Consulting and Freelancing in Academia"/>
+<meta name="citation_fulltext_html_url" content="https://nickch-k.github.io/SomeThoughts/posts/2021-11-19-consulting-and-freelancing-in-academia/"/>
+<meta name="citation_online_date" content="2021/11/19"/>
+<meta name="citation_publication_date" content="2021/11/19"/>
+<meta name="citation_author" content="Nick Huntington-Klein"/>
+<!--/radix_placeholder_meta_tags-->
+  <!--radix_placeholder_rmarkdown_metadata-->
+
+<script type="text/json" id="radix-rmarkdown-metadata">
+{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","author","date","output","citation_url","canonical_url"]}},"value":[{"type":"character","attributes":{},"value":["Consulting and Freelancing in Academia"]},{"type":"character","attributes":{},"value":["A guide to getting started and doing well at consulting and freelancing, and avoiding some speed bumps. This is aimed squarely at people in academia who are good at working with data."]},{"type":"list","attributes":{},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name","url"]}},"value":[{"type":"character","attributes":{},"value":["Nick Huntington-Klein"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["https://www.nickchk.com"]}},"value":[{"type":"NULL"}]}]}]},{"type":"character","attributes":{},"value":["2021-11-19"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["self_contained","toc"]}},"value":[{"type":"logical","attributes":{},"value":[false]},{"type":"logical","attributes":{},"value":[true]}]}]},{"type":"character","attributes":{},"value":["https://nickch-k.github.io/SomeThoughts/posts/2021-11-19-consulting-and-freelancing-in-academia/"]},{"type":"character","attributes":{},"value":["https://nickch-k.github.io/SomeThoughts/posts/2021-11-19-consulting-and-freelancing-in-academia/"]}]}
+</script>
+<!--/radix_placeholder_rmarkdown_metadata-->
+  
+  <script type="text/json" id="radix-resource-manifest">
+  {"type":"character","attributes":{},"value":["consulting-and-freelancing-in-academia_files/anchor-4.2.2/anchor.min.js","consulting-and-freelancing-in-academia_files/bowser-1.9.3/bowser.min.js","consulting-and-freelancing-in-academia_files/distill-2.2.21/template.v2.js","consulting-and-freelancing-in-academia_files/header-attrs-2.11/header-attrs.js","consulting-and-freelancing-in-academia_files/jquery-3.6.0/jquery-3.6.0.js","consulting-and-freelancing-in-academia_files/jquery-3.6.0/jquery-3.6.0.min.js","consulting-and-freelancing-in-academia_files/jquery-3.6.0/jquery-3.6.0.min.map","consulting-and-freelancing-in-academia_files/popper-2.6.0/popper.min.js","consulting-and-freelancing-in-academia_files/tippy-6.2.7/tippy-bundle.umd.min.js","consulting-and-freelancing-in-academia_files/tippy-6.2.7/tippy-light-border.css","consulting-and-freelancing-in-academia_files/tippy-6.2.7/tippy.css","consulting-and-freelancing-in-academia_files/tippy-6.2.7/tippy.umd.min.js","consulting-and-freelancing-in-academia_files/webcomponents-2.0.0/webcomponents.js"]}
+  </script>
+  <!--radix_placeholder_navigation_in_header-->
+<meta name="distill:offset" content="../.."/>
+
+<script type="application/javascript">
+
+  window.headroom_prevent_pin = false;
+
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+
+    // initialize headroom for banner
+    var header = $('header').get(0);
+    var headerHeight = header.offsetHeight;
+    var headroom = new Headroom(header, {
+      tolerance: 5,
+      onPin : function() {
+        if (window.headroom_prevent_pin) {
+          window.headroom_prevent_pin = false;
+          headroom.unpin();
+        }
+      }
+    });
+    headroom.init();
+    if(window.location.hash)
+      headroom.unpin();
+    $(header).addClass('headroom--transition');
+
+    // offset scroll location for banner on hash change
+    // (see: https://github.com/WickyNilliams/headroom.js/issues/38)
+    window.addEventListener("hashchange", function(event) {
+      window.scrollTo(0, window.pageYOffset - (headerHeight + 25));
+    });
+
+    // responsive menu
+    $('.distill-site-header').each(function(i, val) {
+      var topnav = $(this);
+      var toggle = topnav.find('.nav-toggle');
+      toggle.on('click', function() {
+        topnav.toggleClass('responsive');
+      });
+    });
+
+    // nav dropdowns
+    $('.nav-dropbtn').click(function(e) {
+      $(this).next('.nav-dropdown-content').toggleClass('nav-dropdown-active');
+      $(this).parent().siblings('.nav-dropdown')
+         .children('.nav-dropdown-content').removeClass('nav-dropdown-active');
+    });
+    $("body").click(function(e){
+      $('.nav-dropdown-content').removeClass('nav-dropdown-active');
+    });
+    $(".nav-dropdown").click(function(e){
+      e.stopPropagation();
+    });
+  });
+</script>
+
+<style type="text/css">
+
+/* Theme (user-documented overrideables for nav appearance) */
+
+.distill-site-nav {
+  color: rgba(255, 255, 255, 0.8);
+  background-color: #0F2E3D;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.distill-site-nav a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.distill-site-nav a:hover {
+  color: white;
+}
+
+@media print {
+  .distill-site-nav {
+    display: none;
+  }
+}
+
+.distill-site-header {
+
+}
+
+.distill-site-footer {
+
+}
+
+
+/* Site Header */
+
+.distill-site-header {
+  width: 100%;
+  box-sizing: border-box;
+  z-index: 3;
+}
+
+.distill-site-header .nav-left {
+  display: inline-block;
+  margin-left: 8px;
+}
+
+@media screen and (max-width: 768px) {
+  .distill-site-header .nav-left {
+    margin-left: 0;
+  }
+}
+
+
+.distill-site-header .nav-right {
+  float: right;
+  margin-right: 8px;
+}
+
+.distill-site-header a,
+.distill-site-header .title {
+  display: inline-block;
+  text-align: center;
+  padding: 14px 10px 14px 10px;
+}
+
+.distill-site-header .title {
+  font-size: 18px;
+  min-width: 150px;
+}
+
+.distill-site-header .logo {
+  padding: 0;
+}
+
+.distill-site-header .logo img {
+  display: none;
+  max-height: 20px;
+  width: auto;
+  margin-bottom: -4px;
+}
+
+.distill-site-header .nav-image img {
+  max-height: 18px;
+  width: auto;
+  display: inline-block;
+  margin-bottom: -3px;
+}
+
+
+
+@media screen and (min-width: 1000px) {
+  .distill-site-header .logo img {
+    display: inline-block;
+  }
+  .distill-site-header .nav-left {
+    margin-left: 20px;
+  }
+  .distill-site-header .nav-right {
+    margin-right: 20px;
+  }
+  .distill-site-header .title {
+    padding-left: 12px;
+  }
+}
+
+
+.distill-site-header .nav-toggle {
+  display: none;
+}
+
+.nav-dropdown {
+  display: inline-block;
+  position: relative;
+}
+
+.nav-dropdown .nav-dropbtn {
+  border: none;
+  outline: none;
+  color: rgba(255, 255, 255, 0.8);
+  padding: 16px 10px;
+  background-color: transparent;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  margin: 0;
+  margin-top: 1px;
+  z-index: 2;
+}
+
+.nav-dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 200px;
+  border: 1px solid rgba(0,0,0,0.15);
+  border-radius: 4px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.1);
+  z-index: 1;
+  margin-top: 2px;
+  white-space: nowrap;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+.nav-dropdown-content hr {
+  margin-top: 4px;
+  margin-bottom: 4px;
+  border: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.nav-dropdown-active {
+  display: block;
+}
+
+.nav-dropdown-content a, .nav-dropdown-content .nav-dropdown-header {
+  color: black;
+  padding: 6px 24px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.nav-dropdown-content .nav-dropdown-header {
+  display: block;
+  padding: 5px 24px;
+  padding-bottom: 0;
+  text-transform: uppercase;
+  font-size: 14px;
+  color: #999999;
+  white-space: nowrap;
+}
+
+.nav-dropdown:hover .nav-dropbtn {
+  color: white;
+}
+
+.nav-dropdown-content a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.nav-right .nav-dropdown-content {
+  margin-left: -45%;
+  right: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .distill-site-header a, .distill-site-header .nav-dropdown  {display: none;}
+  .distill-site-header a.nav-toggle {
+    float: right;
+    display: block;
+  }
+  .distill-site-header .title {
+    margin-left: 0;
+  }
+  .distill-site-header .nav-right {
+    margin-right: 0;
+  }
+  .distill-site-header {
+    overflow: hidden;
+  }
+  .nav-right .nav-dropdown-content {
+    margin-left: 0;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .distill-site-header.responsive {position: relative; min-height: 500px; }
+  .distill-site-header.responsive a.nav-toggle {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .distill-site-header.responsive a,
+  .distill-site-header.responsive .nav-dropdown {
+    display: block;
+    text-align: left;
+  }
+  .distill-site-header.responsive .nav-left,
+  .distill-site-header.responsive .nav-right {
+    width: 100%;
+  }
+  .distill-site-header.responsive .nav-dropdown {float: none;}
+  .distill-site-header.responsive .nav-dropdown-content {position: relative;}
+  .distill-site-header.responsive .nav-dropdown .nav-dropbtn {
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+}
+
+/* Site Footer */
+
+.distill-site-footer {
+  width: 100%;
+  overflow: hidden;
+  box-sizing: border-box;
+  z-index: 3;
+  margin-top: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+/* Headroom */
+
+d-title {
+  padding-top: 6rem;
+}
+
+@media print {
+  d-title {
+    padding-top: 4rem;
+  }
+}
+
+.headroom {
+  z-index: 1000;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.headroom--transition {
+  transition: all .4s ease-in-out;
+}
+
+.headroom--unpinned {
+  top: -100px;
+}
+
+.headroom--pinned {
+  top: 0;
+}
+
+/* adjust viewport for navbar height */
+/* helps vertically center bootstrap (non-distill) content */
+.min-vh-100 {
+  min-height: calc(100vh - 100px) !important;
+}
+
+</style>
+
+<script src="../../site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<link href="../../site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet"/>
+<link href="../../site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet"/>
+<script src="../../site_libs/headroom-0.9.4/headroom.min.js"></script>
+<script src="../../site_libs/autocomplete-0.37.1/autocomplete.min.js"></script>
+<script src="../../site_libs/fuse-6.4.1/fuse.min.js"></script>
+
+<script type="application/javascript">
+
+function getMeta(metaName) {
+  var metas = document.getElementsByTagName('meta');
+  for (let i = 0; i < metas.length; i++) {
+    if (metas[i].getAttribute('name') === metaName) {
+      return metas[i].getAttribute('content');
+    }
+  }
+  return '';
+}
+
+function offsetURL(url) {
+  var offset = getMeta('distill:offset');
+  return offset ? offset + '/' + url : url;
+}
+
+function createFuseIndex() {
+
+  // create fuse index
+  var options = {
+    keys: [
+      { name: 'title', weight: 20 },
+      { name: 'categories', weight: 15 },
+      { name: 'description', weight: 10 },
+      { name: 'contents', weight: 5 },
+    ],
+    ignoreLocation: true,
+    threshold: 0
+  };
+  var fuse = new window.Fuse([], options);
+
+  // fetch the main search.json
+  return fetch(offsetURL('search.json'))
+    .then(function(response) {
+      if (response.status == 200) {
+        return response.json().then(function(json) {
+          // index main articles
+          json.articles.forEach(function(article) {
+            fuse.add(article);
+          });
+          // download collections and index their articles
+          return Promise.all(json.collections.map(function(collection) {
+            return fetch(offsetURL(collection)).then(function(response) {
+              if (response.status === 200) {
+                return response.json().then(function(articles) {
+                  articles.forEach(function(article) {
+                    fuse.add(article);
+                  });
+                })
+              } else {
+                return Promise.reject(
+                  new Error('Unexpected status from search index request: ' +
+                            response.status)
+                );
+              }
+            });
+          })).then(function() {
+            return fuse;
+          });
+        });
+
+      } else {
+        return Promise.reject(
+          new Error('Unexpected status from search index request: ' +
+                      response.status)
+        );
+      }
+    });
+}
+
+window.document.addEventListener("DOMContentLoaded", function (event) {
+
+  // get search element (bail if we don't have one)
+  var searchEl = window.document.getElementById('distill-search');
+  if (!searchEl)
+    return;
+
+  createFuseIndex()
+    .then(function(fuse) {
+
+      // make search box visible
+      searchEl.classList.remove('hidden');
+
+      // initialize autocomplete
+      var options = {
+        autoselect: true,
+        hint: false,
+        minLength: 2,
+      };
+      window.autocomplete(searchEl, options, [{
+        source: function(query, callback) {
+          const searchOptions = {
+            isCaseSensitive: false,
+            shouldSort: true,
+            minMatchCharLength: 2,
+            limit: 10,
+          };
+          var results = fuse.search(query, searchOptions);
+          callback(results
+            .map(function(result) { return result.item; })
+          );
+        },
+        templates: {
+          suggestion: function(suggestion) {
+            var img = suggestion.preview && Object.keys(suggestion.preview).length > 0
+              ? `<img src="${offsetURL(suggestion.preview)}"</img>`
+              : '';
+            var html = `
+              <div class="search-item">
+                <h3>${suggestion.title}</h3>
+                <div class="search-item-description">
+                  ${suggestion.description || ''}
+                </div>
+                <div class="search-item-preview">
+                  ${img}
+                </div>
+              </div>
+            `;
+            return html;
+          }
+        }
+      }]).on('autocomplete:selected', function(event, suggestion) {
+        window.location.href = offsetURL(suggestion.path);
+      });
+      // remove inline display style on autocompleter (we want to
+      // manage responsive display via css)
+      $('.algolia-autocomplete').css("display", "");
+    })
+    .catch(function(error) {
+      console.log(error);
+    });
+
+});
+
+</script>
+
+<style type="text/css">
+
+.nav-search {
+  font-size: x-small;
+}
+
+/* Algolioa Autocomplete */
+
+.algolia-autocomplete {
+  display: inline-block;
+  margin-left: 10px;
+  vertical-align: sub;
+  background-color: white;
+  color: black;
+  padding: 6px;
+  padding-top: 8px;
+  padding-bottom: 0;
+  border-radius: 6px;
+  border: 1px #0F2E3D solid;
+  width: 180px;
+}
+
+
+@media screen and (max-width: 768px) {
+  .distill-site-nav .algolia-autocomplete {
+    display: none;
+    visibility: hidden;
+  }
+  .distill-site-nav.responsive .algolia-autocomplete {
+    display: inline-block;
+    visibility: visible;
+  }
+  .distill-site-nav.responsive .algolia-autocomplete .aa-dropdown-menu {
+    margin-left: 0;
+    width: 400px;
+    max-height: 400px;
+  }
+}
+
+.algolia-autocomplete .aa-input, .algolia-autocomplete .aa-hint {
+  width: 90%;
+  outline: none;
+  border: none;
+}
+
+.algolia-autocomplete .aa-hint {
+  color: #999;
+}
+.algolia-autocomplete .aa-dropdown-menu {
+  width: 550px;
+  max-height: 70vh;
+  overflow-x: visible;
+  overflow-y: scroll;
+  padding: 5px;
+  margin-top: 3px;
+  margin-left: -150px;
+  background-color: #fff;
+  border-radius: 5px;
+  border: 1px solid #999;
+  border-top: none;
+}
+
+.algolia-autocomplete .aa-dropdown-menu .aa-suggestion {
+  cursor: pointer;
+  padding: 5px 4px;
+  border-bottom: 1px solid #eee;
+}
+
+.algolia-autocomplete .aa-dropdown-menu .aa-suggestion:last-of-type {
+  border-bottom: none;
+  margin-bottom: 2px;
+}
+
+.algolia-autocomplete .aa-dropdown-menu .aa-suggestion .search-item {
+  overflow: hidden;
+  font-size: 0.8em;
+  line-height: 1.4em;
+}
+
+.algolia-autocomplete .aa-dropdown-menu .aa-suggestion .search-item h3 {
+  font-size: 1rem;
+  margin-block-start: 0;
+  margin-block-end: 5px;
+}
+
+.algolia-autocomplete .aa-dropdown-menu .aa-suggestion .search-item-description {
+  display: inline-block;
+  overflow: hidden;
+  height: 2.8em;
+  width: 80%;
+  margin-right: 4%;
+}
+
+.algolia-autocomplete .aa-dropdown-menu .aa-suggestion .search-item-preview {
+  display: inline-block;
+  width: 15%;
+}
+
+.algolia-autocomplete .aa-dropdown-menu .aa-suggestion .search-item-preview img {
+  height: 3em;
+  width: auto;
+  display: none;
+}
+
+.algolia-autocomplete .aa-dropdown-menu .aa-suggestion .search-item-preview img[src] {
+  display: initial;
+}
+
+.algolia-autocomplete .aa-dropdown-menu .aa-suggestion.aa-cursor {
+  background-color: #eee;
+}
+.algolia-autocomplete .aa-dropdown-menu .aa-suggestion em {
+  font-weight: bold;
+  font-style: normal;
+}
+
+</style>
+
+
+<!--/radix_placeholder_navigation_in_header-->
+  <!--radix_placeholder_distill-->
+
+<style type="text/css">
+
+body {
+  background-color: white;
+}
+
+.pandoc-table {
+  width: 100%;
+}
+
+.pandoc-table>caption {
+  margin-bottom: 10px;
+}
+
+.pandoc-table th:not([align]) {
+  text-align: left;
+}
+
+.pagedtable-footer {
+  font-size: 15px;
+}
+
+d-byline .byline {
+  grid-template-columns: 2fr 2fr;
+}
+
+d-byline .byline h3 {
+  margin-block-start: 1.5em;
+}
+
+d-byline .byline .authors-affiliations h3 {
+  margin-block-start: 0.5em;
+}
+
+.authors-affiliations .orcid-id {
+  width: 16px;
+  height:16px;
+  margin-left: 4px;
+  margin-right: 4px;
+  vertical-align: middle;
+  padding-bottom: 2px;
+}
+
+d-title .dt-tags {
+  margin-top: 1em;
+  grid-column: text;
+}
+
+.dt-tags .dt-tag {
+  text-decoration: none;
+  display: inline-block;
+  color: rgba(0,0,0,0.6);
+  padding: 0em 0.4em;
+  margin-right: 0.5em;
+  margin-bottom: 0.4em;
+  font-size: 70%;
+  border: 1px solid rgba(0,0,0,0.2);
+  border-radius: 3px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+d-article table.gt_table td,
+d-article table.gt_table th {
+  border-bottom: none;
+}
+
+.html-widget {
+  margin-bottom: 2.0em;
+}
+
+.l-screen-inset {
+  padding-right: 16px;
+}
+
+.l-screen .caption {
+  margin-left: 10px;
+}
+
+.shaded {
+  background: rgb(247, 247, 247);
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.shaded .html-widget {
+  margin-bottom: 0;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.shaded .shaded-content {
+  background: white;
+}
+
+.text-output {
+  margin-top: 0;
+  line-height: 1.5em;
+}
+
+.hidden {
+  display: none !important;
+}
+
+d-article {
+  padding-top: 2.5rem;
+  padding-bottom: 30px;
+}
+
+d-appendix {
+  padding-top: 30px;
+}
+
+d-article>p>img {
+  width: 100%;
+}
+
+d-article h2 {
+  margin: 1rem 0 1.5rem 0;
+}
+
+d-article h3 {
+  margin-top: 1.5rem;
+}
+
+d-article iframe {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  margin-bottom: 2.0em;
+  width: 100%;
+}
+
+/* Tweak code blocks */
+
+d-article div.sourceCode code,
+d-article pre code {
+  font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+}
+
+d-article pre,
+d-article div.sourceCode,
+d-article div.sourceCode pre {
+  overflow: auto;
+}
+
+d-article div.sourceCode {
+  background-color: white;
+}
+
+d-article div.sourceCode pre {
+  padding-left: 10px;
+  font-size: 12px;
+  border-left: 2px solid rgba(0,0,0,0.1);
+}
+
+d-article pre {
+  font-size: 12px;
+  color: black;
+  background: none;
+  margin-top: 0;
+  text-align: left;
+  white-space: pre;
+  word-spacing: normal;
+  word-break: normal;
+  word-wrap: normal;
+  line-height: 1.5;
+
+  -moz-tab-size: 4;
+  -o-tab-size: 4;
+  tab-size: 4;
+
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  -ms-hyphens: none;
+  hyphens: none;
+}
+
+d-article pre a {
+  border-bottom: none;
+}
+
+d-article pre a:hover {
+  border-bottom: none;
+  text-decoration: underline;
+}
+
+d-article details {
+  grid-column: text;
+  margin-bottom: 0.8em;
+}
+
+@media(min-width: 768px) {
+
+d-article pre,
+d-article div.sourceCode,
+d-article div.sourceCode pre {
+  overflow: visible !important;
+}
+
+d-article div.sourceCode pre {
+  padding-left: 18px;
+  font-size: 14px;
+}
+
+d-article pre {
+  font-size: 14px;
+}
+
+}
+
+figure img.external {
+  background: white;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.1);
+  padding: 18px;
+  box-sizing: border-box;
+}
+
+/* CSS for d-contents */
+
+.d-contents {
+  grid-column: text;
+  color: rgba(0,0,0,0.8);
+  font-size: 0.9em;
+  padding-bottom: 1em;
+  margin-bottom: 1em;
+  padding-bottom: 0.5em;
+  margin-bottom: 1em;
+  padding-left: 0.25em;
+  justify-self: start;
+}
+
+@media(min-width: 1000px) {
+  .d-contents.d-contents-float {
+    height: 0;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    justify-self: center;
+    padding-right: 3em;
+    padding-left: 2em;
+  }
+}
+
+.d-contents nav h3 {
+  font-size: 18px;
+  margin-top: 0;
+  margin-bottom: 1em;
+}
+
+.d-contents li {
+  list-style-type: none
+}
+
+.d-contents nav > ul {
+  padding-left: 0;
+}
+
+.d-contents ul {
+  padding-left: 1em
+}
+
+.d-contents nav ul li {
+  margin-top: 0.6em;
+  margin-bottom: 0.2em;
+}
+
+.d-contents nav a {
+  font-size: 13px;
+  border-bottom: none;
+  text-decoration: none
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.d-contents nav a:hover {
+  text-decoration: underline solid rgba(0, 0, 0, 0.6)
+}
+
+.d-contents nav > ul > li > a {
+  font-weight: 600;
+}
+
+.d-contents nav > ul > li > ul {
+  font-weight: inherit;
+}
+
+.d-contents nav > ul > li > ul > li {
+  margin-top: 0.2em;
+}
+
+
+.d-contents nav ul {
+  margin-top: 0;
+  margin-bottom: 0.25em;
+}
+
+.d-article-with-toc h2:nth-child(2) {
+  margin-top: 0;
+}
+
+
+/* Figure */
+
+.figure {
+  position: relative;
+  margin-bottom: 2.5em;
+  margin-top: 1.5em;
+}
+
+.figure img {
+  width: 100%;
+}
+
+.figure .caption {
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 12px;
+  line-height: 1.5em;
+}
+
+.figure img.external {
+  background: white;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.1);
+  padding: 18px;
+  box-sizing: border-box;
+}
+
+.figure .caption a {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.figure .caption b,
+.figure .caption strong, {
+  font-weight: 600;
+  color: rgba(0, 0, 0, 1.0);
+}
+
+/* Citations */
+
+d-article .citation {
+  color: inherit;
+  cursor: inherit;
+}
+
+div.hanging-indent{
+  margin-left: 1em; text-indent: -1em;
+}
+
+/* Citation hover box */
+
+.tippy-box[data-theme~=light-border] {
+  background-color: rgba(250, 250, 250, 0.95);
+}
+
+.tippy-content > p {
+  margin-bottom: 0;
+  padding: 2px;
+}
+
+
+/* Tweak 1000px media break to show more text */
+
+@media(min-width: 1000px) {
+  .base-grid,
+  distill-header,
+  d-title,
+  d-abstract,
+  d-article,
+  d-appendix,
+  distill-appendix,
+  d-byline,
+  d-footnote-list,
+  d-citation-list,
+  distill-footer {
+    grid-template-columns: [screen-start] 1fr [page-start kicker-start] 80px [middle-start] 50px [text-start kicker-end] 65px 65px 65px 65px 65px 65px 65px 65px [text-end gutter-start] 65px [middle-end] 65px [page-end gutter-end] 1fr [screen-end];
+    grid-column-gap: 16px;
+  }
+
+  .grid {
+    grid-column-gap: 16px;
+  }
+
+  d-article {
+    font-size: 1.06rem;
+    line-height: 1.7em;
+  }
+  figure .caption, .figure .caption, figure figcaption {
+    font-size: 13px;
+  }
+}
+
+@media(min-width: 1180px) {
+  .base-grid,
+  distill-header,
+  d-title,
+  d-abstract,
+  d-article,
+  d-appendix,
+  distill-appendix,
+  d-byline,
+  d-footnote-list,
+  d-citation-list,
+  distill-footer {
+    grid-template-columns: [screen-start] 1fr [page-start kicker-start] 60px [middle-start] 60px [text-start kicker-end] 60px 60px 60px 60px 60px 60px 60px 60px [text-end gutter-start] 60px [middle-end] 60px [page-end gutter-end] 1fr [screen-end];
+    grid-column-gap: 32px;
+  }
+
+  .grid {
+    grid-column-gap: 32px;
+  }
+}
+
+
+/* Get the citation styles for the appendix (not auto-injected on render since
+   we do our own rendering of the citation appendix) */
+
+d-appendix .citation-appendix,
+.d-appendix .citation-appendix {
+  font-size: 11px;
+  line-height: 15px;
+  border-left: 1px solid rgba(0, 0, 0, 0.1);
+  padding-left: 18px;
+  border: 1px solid rgba(0,0,0,0.1);
+  background: rgba(0, 0, 0, 0.02);
+  padding: 10px 18px;
+  border-radius: 3px;
+  color: rgba(150, 150, 150, 1);
+  overflow: hidden;
+  margin-top: -12px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+/* Include appendix styles here so they can be overridden */
+
+d-appendix {
+  contain: layout style;
+  font-size: 0.8em;
+  line-height: 1.7em;
+  margin-top: 60px;
+  margin-bottom: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  color: rgba(0,0,0,0.5);
+  padding-top: 60px;
+  padding-bottom: 48px;
+}
+
+d-appendix h3 {
+  grid-column: page-start / text-start;
+  font-size: 15px;
+  font-weight: 500;
+  margin-top: 1em;
+  margin-bottom: 0;
+  color: rgba(0,0,0,0.65);
+}
+
+d-appendix h3 + * {
+  margin-top: 1em;
+}
+
+d-appendix ol {
+  padding: 0 0 0 15px;
+}
+
+@media (min-width: 768px) {
+  d-appendix ol {
+    padding: 0 0 0 30px;
+    margin-left: -30px;
+  }
+}
+
+d-appendix li {
+  margin-bottom: 1em;
+}
+
+d-appendix a {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+d-appendix > * {
+  grid-column: text;
+}
+
+d-appendix > d-footnote-list,
+d-appendix > d-citation-list,
+d-appendix > distill-appendix {
+  grid-column: screen;
+}
+
+/* Include footnote styles here so they can be overridden */
+
+d-footnote-list {
+  contain: layout style;
+}
+
+d-footnote-list > * {
+  grid-column: text;
+}
+
+d-footnote-list a.footnote-backlink {
+  color: rgba(0,0,0,0.3);
+  padding-left: 0.5em;
+}
+
+
+
+/* Anchor.js */
+
+.anchorjs-link {
+  /*transition: all .25s linear; */
+  text-decoration: none;
+  border-bottom: none;
+}
+*:hover > .anchorjs-link {
+  margin-left: -1.125em !important;
+  text-decoration: none;
+  border-bottom: none;
+}
+
+/* Social footer */
+
+.social_footer {
+  margin-top: 30px;
+  margin-bottom: 0;
+  color: rgba(0,0,0,0.67);
+}
+
+.disqus-comments {
+  margin-right: 30px;
+}
+
+.disqus-comment-count {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+}
+
+#disqus_thread {
+  margin-top: 30px;
+}
+
+.article-sharing a {
+  border-bottom: none;
+  margin-right: 8px;
+}
+
+.article-sharing a:hover {
+  border-bottom: none;
+}
+
+.sidebar-section.subscribe {
+  font-size: 12px;
+  line-height: 1.6em;
+}
+
+.subscribe p {
+  margin-bottom: 0.5em;
+}
+
+
+.article-footer .subscribe {
+  font-size: 15px;
+  margin-top: 45px;
+}
+
+
+.sidebar-section.custom {
+  font-size: 12px;
+  line-height: 1.6em;
+}
+
+.custom p {
+  margin-bottom: 0.5em;
+}
+
+/* Styles for listing layout (hide title) */
+.layout-listing d-title, .layout-listing .d-title {
+  display: none;
+}
+
+/* Styles for posts lists (not auto-injected) */
+
+
+.posts-with-sidebar {
+  padding-left: 45px;
+  padding-right: 45px;
+}
+
+.posts-list .description h2,
+.posts-list .description p {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif;
+}
+
+.posts-list .description h2 {
+  font-weight: 700;
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.posts-list h2.post-tag {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  padding-bottom: 12px;
+}
+.posts-list {
+  margin-top: 60px;
+  margin-bottom: 24px;
+}
+
+.posts-list .post-preview {
+  text-decoration: none;
+  overflow: hidden;
+  display: block;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 24px 0;
+}
+
+.post-preview-last {
+  border-bottom: none !important;
+}
+
+.posts-list .posts-list-caption {
+  grid-column: screen;
+  font-weight: 400;
+}
+
+.posts-list .post-preview h2 {
+  margin: 0 0 6px 0;
+  line-height: 1.2em;
+  font-style: normal;
+  font-size: 24px;
+}
+
+.posts-list .post-preview p {
+  margin: 0 0 12px 0;
+  line-height: 1.4em;
+  font-size: 16px;
+}
+
+.posts-list .post-preview .thumbnail {
+  box-sizing: border-box;
+  margin-bottom: 24px;
+  position: relative;
+  max-width: 500px;
+}
+.posts-list .post-preview img {
+  width: 100%;
+  display: block;
+}
+
+.posts-list .metadata {
+  font-size: 12px;
+  line-height: 1.4em;
+  margin-bottom: 18px;
+}
+
+.posts-list .metadata > * {
+  display: inline-block;
+}
+
+.posts-list .metadata .publishedDate {
+  margin-right: 2em;
+}
+
+.posts-list .metadata .dt-authors {
+  display: block;
+  margin-top: 0.3em;
+  margin-right: 2em;
+}
+
+.posts-list .dt-tags {
+  display: block;
+  line-height: 1em;
+}
+
+.posts-list .dt-tags .dt-tag {
+  display: inline-block;
+  color: rgba(0,0,0,0.6);
+  padding: 0.3em 0.4em;
+  margin-right: 0.2em;
+  margin-bottom: 0.4em;
+  font-size: 60%;
+  border: 1px solid rgba(0,0,0,0.2);
+  border-radius: 3px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.posts-list img {
+  opacity: 1;
+}
+
+.posts-list img[data-src] {
+  opacity: 0;
+}
+
+.posts-more {
+  clear: both;
+}
+
+
+.posts-sidebar {
+  font-size: 16px;
+}
+
+.posts-sidebar h3 {
+  font-size: 16px;
+  margin-top: 0;
+  margin-bottom: 0.5em;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.sidebar-section {
+  margin-bottom: 30px;
+}
+
+.categories ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.categories li {
+  color: rgba(0, 0, 0, 0.8);
+  margin-bottom: 0;
+}
+
+.categories li>a {
+  border-bottom: none;
+}
+
+.categories li>a:hover {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+}
+
+.categories .active {
+  font-weight: 600;
+}
+
+.categories .category-count {
+  color: rgba(0, 0, 0, 0.4);
+}
+
+
+@media(min-width: 768px) {
+  .posts-list .post-preview h2 {
+    font-size: 26px;
+  }
+  .posts-list .post-preview .thumbnail {
+    float: right;
+    width: 30%;
+    margin-bottom: 0;
+  }
+  .posts-list .post-preview .description {
+    float: left;
+    width: 45%;
+  }
+  .posts-list .post-preview .metadata {
+    float: left;
+    width: 20%;
+    margin-top: 8px;
+  }
+  .posts-list .post-preview p {
+    margin: 0 0 12px 0;
+    line-height: 1.5em;
+    font-size: 16px;
+  }
+  .posts-with-sidebar .posts-list {
+    float: left;
+    width: 75%;
+  }
+  .posts-with-sidebar .posts-sidebar {
+    float: right;
+    width: 20%;
+    margin-top: 60px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
+}
+
+
+/* Improve display for browsers without grid (IE/Edge <= 15) */
+
+.downlevel {
+  line-height: 1.6em;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif;
+  margin: 0;
+}
+
+.downlevel .d-title {
+  padding-top: 6rem;
+  padding-bottom: 1.5rem;
+}
+
+.downlevel .d-title h1 {
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 1.1em;
+  margin: 0 0 0.5rem;
+}
+
+.downlevel .d-title p {
+  font-weight: 300;
+  font-size: 1.2rem;
+  line-height: 1.55em;
+  margin-top: 0;
+}
+
+.downlevel .d-byline {
+  padding-top: 0.8em;
+  padding-bottom: 0.8em;
+  font-size: 0.8rem;
+  line-height: 1.8em;
+}
+
+.downlevel .section-separator {
+  border: none;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.downlevel .d-article {
+  font-size: 1.06rem;
+  line-height: 1.7em;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+}
+
+
+.downlevel .d-appendix {
+  padding-left: 0;
+  padding-right: 0;
+  max-width: none;
+  font-size: 0.8em;
+  line-height: 1.7em;
+  margin-bottom: 0;
+  color: rgba(0,0,0,0.5);
+  padding-top: 40px;
+  padding-bottom: 48px;
+}
+
+.downlevel .footnotes ol {
+  padding-left: 13px;
+}
+
+.downlevel .base-grid,
+.downlevel .distill-header,
+.downlevel .d-title,
+.downlevel .d-abstract,
+.downlevel .d-article,
+.downlevel .d-appendix,
+.downlevel .distill-appendix,
+.downlevel .d-byline,
+.downlevel .d-footnote-list,
+.downlevel .d-citation-list,
+.downlevel .distill-footer,
+.downlevel .appendix-bottom,
+.downlevel .posts-container {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+@media(min-width: 768px) {
+  .downlevel .base-grid,
+  .downlevel .distill-header,
+  .downlevel .d-title,
+  .downlevel .d-abstract,
+  .downlevel .d-article,
+  .downlevel .d-appendix,
+  .downlevel .distill-appendix,
+  .downlevel .d-byline,
+  .downlevel .d-footnote-list,
+  .downlevel .d-citation-list,
+  .downlevel .distill-footer,
+  .downlevel .appendix-bottom,
+  .downlevel .posts-container {
+  padding-left: 150px;
+  padding-right: 150px;
+  max-width: 900px;
+}
+}
+
+.downlevel pre code {
+  display: block;
+  border-left: 2px solid rgba(0, 0, 0, .1);
+  padding: 0 0 0 20px;
+  font-size: 14px;
+}
+
+.downlevel code, .downlevel pre {
+  color: black;
+  background: none;
+  font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+  text-align: left;
+  white-space: pre;
+  word-spacing: normal;
+  word-break: normal;
+  word-wrap: normal;
+  line-height: 1.5;
+
+  -moz-tab-size: 4;
+  -o-tab-size: 4;
+  tab-size: 4;
+
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  -ms-hyphens: none;
+  hyphens: none;
+}
+
+.downlevel .posts-list .post-preview {
+  color: inherit;
+}
+
+
+
+</style>
+
+<script type="application/javascript">
+
+function is_downlevel_browser() {
+  if (bowser.isUnsupportedBrowser({ msie: "12", msedge: "16"},
+                                 window.navigator.userAgent)) {
+    return true;
+  } else {
+    return window.load_distill_framework === undefined;
+  }
+}
+
+// show body when load is complete
+function on_load_complete() {
+
+  // add anchors
+  if (window.anchors) {
+    window.anchors.options.placement = 'left';
+    window.anchors.add('d-article > h2, d-article > h3, d-article > h4, d-article > h5');
+  }
+
+
+  // set body to visible
+  document.body.style.visibility = 'visible';
+
+  // force redraw for leaflet widgets
+  if (window.HTMLWidgets) {
+    var maps = window.HTMLWidgets.findAll(".leaflet");
+    $.each(maps, function(i, el) {
+      var map = this.getMap();
+      map.invalidateSize();
+      map.eachLayer(function(layer) {
+        if (layer instanceof L.TileLayer)
+          layer.redraw();
+      });
+    });
+  }
+
+  // trigger 'shown' so htmlwidgets resize
+  $('d-article').trigger('shown');
+}
+
+function init_distill() {
+
+  init_common();
+
+  // create front matter
+  var front_matter = $('<d-front-matter></d-front-matter>');
+  $('#distill-front-matter').wrap(front_matter);
+
+  // create d-title
+  $('.d-title').changeElementType('d-title');
+
+  // create d-byline
+  var byline = $('<d-byline></d-byline>');
+  $('.d-byline').replaceWith(byline);
+
+  // create d-article
+  var article = $('<d-article></d-article>');
+  $('.d-article').wrap(article).children().unwrap();
+
+  // move posts container into article
+  $('.posts-container').appendTo($('d-article'));
+
+  // create d-appendix
+  $('.d-appendix').changeElementType('d-appendix');
+
+  // flag indicating that we have appendix items
+  var appendix = $('.appendix-bottom').children('h3').length > 0;
+
+  // replace footnotes with <d-footnote>
+  $('.footnote-ref').each(function(i, val) {
+    appendix = true;
+    var href = $(this).attr('href');
+    var id = href.replace('#', '');
+    var fn = $('#' + id);
+    var fn_p = $('#' + id + '>p');
+    fn_p.find('.footnote-back').remove();
+    var text = fn_p.html();
+    var dtfn = $('<d-footnote></d-footnote>');
+    dtfn.html(text);
+    $(this).replaceWith(dtfn);
+  });
+  // remove footnotes
+  $('.footnotes').remove();
+
+  // move refs into #references-listing
+  $('#references-listing').replaceWith($('#refs'));
+
+  $('h1.appendix, h2.appendix').each(function(i, val) {
+    $(this).changeElementType('h3');
+  });
+  $('h3.appendix').each(function(i, val) {
+    var id = $(this).attr('id');
+    $('.d-contents a[href="#' + id + '"]').parent().remove();
+    appendix = true;
+    $(this).nextUntil($('h1, h2, h3')).addBack().appendTo($('d-appendix'));
+  });
+
+  // show d-appendix if we have appendix content
+  $("d-appendix").css('display', appendix ? 'grid' : 'none');
+
+  // localize layout chunks to just output
+  $('.layout-chunk').each(function(i, val) {
+
+    // capture layout
+    var layout = $(this).attr('data-layout');
+
+    // apply layout to markdown level block elements
+    var elements = $(this).children().not('details, div.sourceCode, pre, script');
+    elements.each(function(i, el) {
+      var layout_div = $('<div class="' + layout + '"></div>');
+      if (layout_div.hasClass('shaded')) {
+        var shaded_content = $('<div class="shaded-content"></div>');
+        $(this).wrap(shaded_content);
+        $(this).parent().wrap(layout_div);
+      } else {
+        $(this).wrap(layout_div);
+      }
+    });
+
+
+    // unwrap the layout-chunk div
+    $(this).children().unwrap();
+  });
+
+  // remove code block used to force  highlighting css
+  $('.distill-force-highlighting-css').parent().remove();
+
+  // remove empty line numbers inserted by pandoc when using a
+  // custom syntax highlighting theme
+  $('code.sourceCode a:empty').remove();
+
+  // load distill framework
+  load_distill_framework();
+
+  // wait for window.distillRunlevel == 4 to do post processing
+  function distill_post_process() {
+
+    if (!window.distillRunlevel || window.distillRunlevel < 4)
+      return;
+
+    // hide author/affiliations entirely if we have no authors
+    var front_matter = JSON.parse($("#distill-front-matter").html());
+    var have_authors = front_matter.authors && front_matter.authors.length > 0;
+    if (!have_authors)
+      $('d-byline').addClass('hidden');
+
+    // article with toc class
+    $('.d-contents').parent().addClass('d-article-with-toc');
+
+    // strip links that point to #
+    $('.authors-affiliations').find('a[href="#"]').removeAttr('href');
+
+    // add orcid ids
+    $('.authors-affiliations').find('.author').each(function(i, el) {
+      var orcid_id = front_matter.authors[i].orcidID;
+      if (orcid_id) {
+        var a = $('<a></a>');
+        a.attr('href', 'https://orcid.org/' + orcid_id);
+        var img = $('<img></img>');
+        img.addClass('orcid-id');
+        img.attr('alt', 'ORCID ID');
+        img.attr('src','data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg==');
+        a.append(img);
+        $(this).append(a);
+      }
+    });
+
+    // hide elements of author/affiliations grid that have no value
+    function hide_byline_column(caption) {
+      $('d-byline').find('h3:contains("' + caption + '")').parent().css('visibility', 'hidden');
+    }
+
+    // affiliations
+    var have_affiliations = false;
+    for (var i = 0; i<front_matter.authors.length; ++i) {
+      var author = front_matter.authors[i];
+      if (author.affiliation !== "&nbsp;") {
+        have_affiliations = true;
+        break;
+      }
+    }
+    if (!have_affiliations)
+      $('d-byline').find('h3:contains("Affiliations")').css('visibility', 'hidden');
+
+    // published date
+    if (!front_matter.publishedDate)
+      hide_byline_column("Published");
+
+    // document object identifier
+    var doi = $('d-byline').find('h3:contains("DOI")');
+    var doi_p = doi.next().empty();
+    if (!front_matter.doi) {
+      // if we have a citation and valid citationText then link to that
+      if ($('#citation').length > 0 && front_matter.citationText) {
+        doi.html('Citation');
+        $('<a href="#citation"></a>')
+          .text(front_matter.citationText)
+          .appendTo(doi_p);
+      } else {
+        hide_byline_column("DOI");
+      }
+    } else {
+      $('<a></a>')
+         .attr('href', "https://doi.org/" + front_matter.doi)
+         .html(front_matter.doi)
+         .appendTo(doi_p);
+    }
+
+     // change plural form of authors/affiliations
+    if (front_matter.authors.length === 1) {
+      var grid = $('.authors-affiliations');
+      grid.children('h3:contains("Authors")').text('Author');
+      grid.children('h3:contains("Affiliations")').text('Affiliation');
+    }
+
+    // remove d-appendix and d-footnote-list local styles
+    $('d-appendix > style:first-child').remove();
+    $('d-footnote-list > style:first-child').remove();
+
+    // move appendix-bottom entries to the bottom
+    $('.appendix-bottom').appendTo('d-appendix').children().unwrap();
+    $('.appendix-bottom').remove();
+
+    // hoverable references
+    $('span.citation[data-cites]').each(function() {
+      var refs = $(this).attr('data-cites').split(" ");
+      var refHtml = refs.map(function(ref) {
+        return "<p>" + $('#ref-' + ref).html() + "</p>";
+      }).join("\n");
+      window.tippy(this, {
+        allowHTML: true,
+        content: refHtml,
+        maxWidth: 500,
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'light-border',
+        placement: 'bottom-start'
+      });
+    });
+
+    // clear polling timer
+    clearInterval(tid);
+
+    // show body now that everything is ready
+    on_load_complete();
+  }
+
+  var tid = setInterval(distill_post_process, 50);
+  distill_post_process();
+
+}
+
+function init_downlevel() {
+
+  init_common();
+
+   // insert hr after d-title
+  $('.d-title').after($('<hr class="section-separator"/>'));
+
+  // check if we have authors
+  var front_matter = JSON.parse($("#distill-front-matter").html());
+  var have_authors = front_matter.authors && front_matter.authors.length > 0;
+
+  // manage byline/border
+  if (!have_authors)
+    $('.d-byline').remove();
+  $('.d-byline').after($('<hr class="section-separator"/>'));
+  $('.d-byline a').remove();
+
+  // remove toc
+  $('.d-contents').remove();
+
+  // move appendix elements
+  $('h1.appendix, h2.appendix').each(function(i, val) {
+    $(this).changeElementType('h3');
+  });
+  $('h3.appendix').each(function(i, val) {
+    $(this).nextUntil($('h1, h2, h3')).addBack().appendTo($('.d-appendix'));
+  });
+
+
+  // inject headers into references and footnotes
+  var refs_header = $('<h3></h3>');
+  refs_header.text('References');
+  $('#refs').prepend(refs_header);
+
+  var footnotes_header = $('<h3></h3');
+  footnotes_header.text('Footnotes');
+  $('.footnotes').children('hr').first().replaceWith(footnotes_header);
+
+  // move appendix-bottom entries to the bottom
+  $('.appendix-bottom').appendTo('.d-appendix').children().unwrap();
+  $('.appendix-bottom').remove();
+
+  // remove appendix if it's empty
+  if ($('.d-appendix').children().length === 0)
+    $('.d-appendix').remove();
+
+  // prepend separator above appendix
+  $('.d-appendix').before($('<hr class="section-separator" style="clear: both"/>'));
+
+  // trim code
+  $('pre>code').each(function(i, val) {
+    $(this).html($.trim($(this).html()));
+  });
+
+  // move posts-container right before article
+  $('.posts-container').insertBefore($('.d-article'));
+
+  $('body').addClass('downlevel');
+
+  on_load_complete();
+}
+
+
+function init_common() {
+
+  // jquery plugin to change element types
+  (function($) {
+    $.fn.changeElementType = function(newType) {
+      var attrs = {};
+
+      $.each(this[0].attributes, function(idx, attr) {
+        attrs[attr.nodeName] = attr.nodeValue;
+      });
+
+      this.replaceWith(function() {
+        return $("<" + newType + "/>", attrs).append($(this).contents());
+      });
+    };
+  })(jQuery);
+
+  // prevent underline for linked images
+  $('a > img').parent().css({'border-bottom' : 'none'});
+
+  // mark non-body figures created by knitr chunks as 100% width
+  $('.layout-chunk').each(function(i, val) {
+    var figures = $(this).find('img, .html-widget');
+    if ($(this).attr('data-layout') !== "l-body") {
+      figures.css('width', '100%');
+    } else {
+      figures.css('max-width', '100%');
+      figures.filter("[width]").each(function(i, val) {
+        var fig = $(this);
+        fig.css('width', fig.attr('width') + 'px');
+      });
+
+    }
+  });
+
+  // auto-append index.html to post-preview links in file: protocol
+  // and in rstudio ide preview
+  $('.post-preview').each(function(i, val) {
+    if (window.location.protocol === "file:")
+      $(this).attr('href', $(this).attr('href') + "index.html");
+  });
+
+  // get rid of index.html references in header
+  if (window.location.protocol !== "file:") {
+    $('.distill-site-header a[href]').each(function(i,val) {
+      $(this).attr('href', $(this).attr('href').replace("index.html", "./"));
+    });
+  }
+
+  // add class to pandoc style tables
+  $('tr.header').parent('thead').parent('table').addClass('pandoc-table');
+  $('.kable-table').children('table').addClass('pandoc-table');
+
+  // add figcaption style to table captions
+  $('caption').parent('table').addClass("figcaption");
+
+  // initialize posts list
+  if (window.init_posts_list)
+    window.init_posts_list();
+
+  // implmement disqus comment link
+  $('.disqus-comment-count').click(function() {
+    window.headroom_prevent_pin = true;
+    $('#disqus_thread').toggleClass('hidden');
+    if (!$('#disqus_thread').hasClass('hidden')) {
+      var offset = $(this).offset();
+      $(window).resize();
+      $('html, body').animate({
+        scrollTop: offset.top - 35
+      });
+    }
+  });
+}
+
+document.addEventListener('DOMContentLoaded', function() {
+  if (is_downlevel_browser())
+    init_downlevel();
+  else
+    window.addEventListener('WebComponentsReady', init_distill);
+});
+
+</script>
+
+<!--/radix_placeholder_distill-->
+  <script src="../../site_libs/header-attrs-2.11/header-attrs.js"></script>
+  <script src="../../site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+  <script src="../../site_libs/popper-2.6.0/popper.min.js"></script>
+  <link href="../../site_libs/tippy-6.2.7/tippy.css" rel="stylesheet" />
+  <link href="../../site_libs/tippy-6.2.7/tippy-light-border.css" rel="stylesheet" />
+  <script src="../../site_libs/tippy-6.2.7/tippy.umd.min.js"></script>
+  <script src="../../site_libs/anchor-4.2.2/anchor.min.js"></script>
+  <script src="../../site_libs/bowser-1.9.3/bowser.min.js"></script>
+  <script src="../../site_libs/webcomponents-2.0.0/webcomponents.js"></script>
+  <script src="../../site_libs/distill-2.2.21/template.v2.js"></script>
+  <!--radix_placeholder_site_in_header-->
+<!--/radix_placeholder_site_in_header-->
+
+
+</head>
+
+<body>
+
+<!--radix_placeholder_front_matter-->
+
+<script id="distill-front-matter" type="text/json">
+{"title":"Consulting and Freelancing in Academia","description":"A guide to getting started and doing well at consulting and freelancing, and avoiding some speed bumps. This is aimed squarely at people in academia who are good at working with data.","authors":[{"author":"Nick Huntington-Klein","authorURL":{"https://www.nickchk.com":{}},"affiliation":"&nbsp;","affiliationURL":"#","orcidID":""}],"publishedDate":"2021-11-19T00:00:00.000-08:00","citationText":"Huntington-Klein, 2021"}
+</script>
+
+<!--/radix_placeholder_front_matter-->
+<!--radix_placeholder_navigation_before_body-->
+<header class="header header--fixed" role="banner">
+<nav class="distill-site-nav distill-site-header">
+<div class="nav-left">
+<a href="../../index.html" class="title">Some Thoughts</a>
+<input id="distill-search" class="nav-search hidden" type="text" placeholder="Search..."/>
+</div>
+<div class="nav-right">
+<a href="../../index.html">Home</a>
+<a href="../../about.html">About</a>
+<a href="../../index.xml">
+<i class="fa fa-rss" aria-hidden="true"></i>
+</a>
+<a href="javascript:void(0);" class="nav-toggle">&#9776;</a>
+</div>
+</nav>
+</header>
+<!--/radix_placeholder_navigation_before_body-->
+<!--radix_placeholder_site_before_body-->
+<!--/radix_placeholder_site_before_body-->
+
+<div class="d-title">
+<h1>Consulting and Freelancing in Academia</h1>
+<!--radix_placeholder_categories-->
+<!--/radix_placeholder_categories-->
+<p><p>A guide to getting started and doing well at consulting and freelancing, and avoiding some speed bumps. This is aimed squarely at people in academia who are good at working with data.</p></p>
+</div>
+
+<div class="d-byline">
+  Nick Huntington-Klein true 
+  
+<br/>2021-11-19
+</div>
+
+<div class="d-article">
+<div class="d-contents d-contents-float">
+<nav class="l-text toc figcaption" id="TOC">
+<h3>Contents</h3>
+<ul>
+<li><a href="#why">Why?</a></li>
+<li><a href="#how-should-you-prepare">How Should You Prepare?</a></li>
+<li><a href="#where-can-you-find-jobs">Where Can You Find Jobs?</a></li>
+<li><a href="#getting-started">Getting Started</a></li>
+<li><a href="#how-can-you-deal-with-clients">How Can You Deal with Clients?</a>
+<ul>
+<li><a href="#which-clients-should-you-avoid">Which Clients Should You Avoid?</a></li>
+<li><a href="#successfully-working-with-clients">Successfully Working with Clients</a></li>
+</ul></li>
+<li><a href="#managing-your-time">Managing Your Time</a></li>
+<li><a href="#dont-forget-taxes">Don’t Forget Taxes</a></li>
+<li><a href="#and-so">And So</a></li>
+</ul>
+</nav>
+</div>
+<p>I am an academic. I am very well suited to life in academia. I love every part of it, including teaching, and have very little interest in leaving it. This is true of my attitude and interests, and remains true despite the fact that I am unlikely to ever be published in a top journal in my field, and also that I have maintained, while in academia, a pretty lively string of consulting and freelancing assignments.</p>
+<p>In this post I will share with you some guidelines and tips for pursuing consulting and freelancing work while inside of academia, either as a grad student or as a professor. This will be targeted at people with a skillset similar to myself: people with lots of technical and analytic skill when it comes to working with data. It will also heavily suggest doing things in the exact way that I did them, and in the United States, because that’s what I know. I will not pretend that this is the only way to do things. But it is one way.</p>
+<p>I have decided that the most appropriate tone for a post like this is “world-weary” and I’ll do what I can to rise to this standard.</p>
+<h2 id="why">Why?</h2>
+<p>You’re busy as heck. Why should you consider doing any sort of consulting?</p>
+<ul>
+<li>It pays you money. I have no complaints about my salary as a professor, not one, not ever. I hear professors complaining about how little they get paid and my mind explodes. I’d get it from, like, English professors maybe, but I’m talking business school people. I come from a background where the amount of money I make as a professor is stupid fantasy money. Just ridiculous. I look at the US income distribution and go “welp, I’m rich now I guess.” In my first job out of grad school my annual salary was more than my parents at their highest-earning ever, combined. But professor salaries are indeed quite low compared to what that same skillset can earn you in the private sector, which to me is an even stupider, more fantastic amount of fantasy money. Many professors I know have a spouse with a similarly-remunerative job. Assortative mating. I support a three (soon to be four) person family in what I at least imagine to be an upper-middle-class lifestyle on a single income and without, like, a trust fund or whatever. Consulting makes that possible. <strong>If you know how to work with data, your time is extraordinarily valuable, more than I can reasonably understand but apparently the market does. So get paid for it, at least sometimes.</strong></li>
+<li>Your academic job will usually be cool with it. Obviously check with them, etc., and take stuff into consideration like “can I use my school laptop for this work?” and “will it be a problem if I respond to client messages while on the university Wi-Fi?” and “is my proprietary software like Stata, Matlab, or Tableau licensed for commercial use or just academic use?” but there’s a good chance nobody will get mad at you for taking consulting jobs.</li>
+<li>It provides interesting projects, occasionally. Most of the projects you’ll work on as a freelancer will be pretty boring and basic. But occasionally you’ll get forced into an arena you’re not familiar with and will learn some cool new stuff. I’ve certainly been exposed to all kinds of interesting real-world detail in areas I wouldn’t have bothered to look in before. Maybe the most interesting part to <em>you, the academic</em> isn’t the same as the most interesting part to the <em>client</em>, but who cares, you’re enjoying yourself. On extremely rare occasion your project will end up in a publication for you, too (I’ve done it once, with more on the way).</li>
+<li>It develops your skills. Projects you get as a freelancer will often require you to use tools that are more common in business than in academia. Python, SQL, Excel, etc. It will also require you to think in different ways about what the goal of your work is (clean data, actionable takeaways, easy workflows rather than publishable insights or pristine research design). Sometimes this can lead to you being better-equipped for the next round of academic tech updates (who knows what language will be en vogue in 10 years?). Sometimes it will expose you to entire new fields (for example, the <a href="https://theeffectbook.net/ch-EventStudies.html">Event Studies</a> chapter of my textbook was heavily informed by consulting jobs I’d been given in finance, a field I otherwise have very little interest in). This will also leave you more equipped for, well, working in the private sector (and better-connected! Two different clients have offered me full-time private sector jobs). Maybe that’s what you want - if you’re in grad school and are thinking about the private sector this is one way to build up some experience short of taking an actual job concurrent with your studies. Or maybe it’s not what you want but you think you might end up there anyway. I’m in the US, and I think there’s a non-ignorable chance that within the span of my career either the federal government, and maybe many states, will just sorta defund colleges and/or student aid massively, or that some new form of career prep will outcompete universities and demand will plummet. Where will that leave regional-university non-superstars like me? <em>Like</em> me? Dunno. <em>Me</em>? I’ll be well-equipped to jump ship to some sort of tech company. I will miss academia, and the stage of society that supported it so much, dearly if it comes to that, but at no point will I miss eating. Or a mortgage payment for that matter.</li>
+<li>It provides immediate purpose. I rarely know if my academic research is having any real effect on the world at all. Even when it directly affects some sort of policy change I don’t <em>really</em> know what change is being affected. But consulting work? Sure, maybe the end goal isn’t quite as noble as improving humanity’s stock of knowledge. But it improves <em>someone’s</em> knowledge about something, and you can <em>see it work</em>. That’s nice. Not to mention, my contracting work has led me to projects with actual academic-style noble-purpose outcomes. I’ve ended up in a number of projects that improved policy for nonprofits. I contributed to a governmental COVID task force, <em>which is a project I got through a for-profit client, not my academic work.</em> I’ve produced plenty of education materials on a contracting basis (in addition to the ones I make for free as public goods) and you can see those get used immediately.</li>
+</ul>
+<p>That said, yes, this will eat into whatever free time you have, and you’ll want to make sure you’re doing well at your main academic job as a prerequisite for spending time on other stuff. Reviews at my academic job suggest I’m not skimping there. If that started to slip I’d reevaluate.</p>
+<p>In my case, it’s definitely true that I work all the time and have had to largely excise everything but work and family from my life. But I’m okay with that. I say that not as a brag or judgment on how much people should work, but just an honest statement that I am pretty happy with a work/life balance the internet tells me I should not be happy with. I enjoy working. If you enjoy working less than I do then you should work less than I do. Consulting, conveniently, does let you scale how much work you’re doing, as long as you’re willing to say no when you have too much.</p>
+<h2 id="how-should-you-prepare">How Should You Prepare?</h2>
+<ul>
+<li>Do you know how to clean data from your academic experience?</li>
+<li>Do you know how to work with data and do the best analysis you can based on your academic experience?</li>
+<li>Can you explain your results in an extremely simplified way to someone who has never heard of a regression?</li>
+<li>Are you ready to accept that not all analyses need to be as careful as those heading for an academic publication, nor do they have the same goal as an academic publication, but that you need to find a way to be rigorous regardless?</li>
+</ul>
+<p>If so, you’re good to go, at least conceptually. Technically you’ll be doing yourself a favor if you’re skilled in common private sector languages like Python and the various flavors of SQL (or, more importantly, can pick up new tools and languages on the fly). Or learning to do stuff without relying on fancy models. Or using Excel.</p>
+<p>There are some parts of freelancing that have to do with changing the mindset you have around the work that you do (see the final point above). This is the kind of thing you’ll just have to get through practice, though, so I won’t bother trying to preview it.</p>
+<h2 id="where-can-you-find-jobs">Where Can You Find Jobs?</h2>
+<p>I find jobs largely on <a href="https://www.upwork.com/">upWork</a>. There are other places with freelance job listings, too. If you can manage to get yourself hired directly by a company that needs someone on an ongoing basis and will pay you a decent rate, that’s fantastic. I have, on occasion, built contacts through upWork that later turned into far more lucrative contracts direct with a company that has deep pockets.</p>
+<p>You might wonder about the value of something like upWork given that they take a relatively hefty cut (20% for the first $500 with a client, 10% afterwards). But it’s worth it. The platform provides a lot of clients. More than that, they make sure you get paid. If you work with someone one-on-one, who knows what happens. Wait a few months to get paid, never get paid, spend a lot of time chasing payment, etc.. upWork forces them to pay once you’ve agreed to something, I’ve had literally two contracts ever go south out of hundreds (and one of those went south in my favor, so hey!), and that’s absolutely worth 10% on its own.</p>
+<p>upWork isn’t where I got started though, nor is it the only place I get work. I started out my freelancing focusing on education rather than data work. I did tutoring through Tutor.com and Chegg Tutors, I wrote a zillion practice questions for Albert.io, I wrote practice questions for textbook publishers. I generally don’t advise this path for people situated in academia. This work is rote, time intensive, and poorly paid relative to working with data. Not to mention exposure to actual students in a freelance online-education setting means you’ll spend the majority of your time dealing with people begging for you to just do their homework for them instead of getting paid (or giving in to those requests, and I hope you have more dignity than that). If you’re a grad student and don’t think you have the data chops yet, then sure. This stuff is at least low-commitment and can earn you a few bucks.</p>
+<p>Better opportunities outside of a job board like upWork often require connections of some sort, or being known for something. I’ve had a number of great opportunities come from being referred by a client I met on upWork to another client not on upWork. I’ve gotten hookups from friends who have gone into the private sector. I’ve also had companies email me to offer work. When you’re a professor it happens! You might also come in contact with middlemen consulting agencies who link up freelancers with bigger companies. I’ve worked with a few such agencies, most of which hired me the first time off of upWork. All these experiences have been good. They have access to bigger clients that you’d be unlikely to find on your own. Good pay and longer-term projects.</p>
+<p>Some of the most stressful and frustrating, but financially rewarding, work comes in the form of legal-case consulting. Remember the stupid fantasy money I mentioned in data work? Well, being an expert in a legal case, or just offering commentary and advice to one, is super-duper stupid fantasy money. If you’ve ever been on a jury for a trial with experts, you know lawyers love to ask the opposing experts what they get paid, and for good reason - what juror wants to listen to someone getting paid ludicrous amounts to be there? I’ve done two legal cases, one which came to me through upWork and one which was an email request, and each time charged several hundred dollars an hour. <em>This is low for what this usually pays.</em></p>
+<p>You do have to put in the work, though. Lawyers expect extremely fast turnarounds, there are often restrictions on the scope of what questions you can answer or what methods you can use to answer them (if you’ve ever read an expert opinion for a legal case from an academic you like and thought “wow, this is not as good as their usual work,” this is one reason why), and you might have to give deposition or testimony which can be a little terrifying. Plus, while this isn’t something I’ve experienced myself, you might end up in a situation where the lawyers <em>really</em> want you to find a way to <em>make</em> their side right, rather than providing your actual best expertise, also then also put your name on it. The legal-case work I’ve done has all been in the form of rebuttal to other experts which makes some parts of this easier but not all of it.</p>
+<p>On a much smaller scale, I will, as someone with a mildly public persona via <a href="https://twitter.com/nickchk">Twitter</a> and <a href="https://www.youtube.com/channel/UCuSAKl6Q4JPA9O_cEFYEPGg">YouTube</a>, occasionally get requests straight to my email from individuals. Many of these are requests to help in general without pay (which I’m happy to oblige, up to a point), but others are offers of work. These might be worth it if you happen to have the time, but I don’t think I’ve ever had one blossom into a truly worthwhile contract (see the note about “small contracts” below).</p>
+<p>So how do you get work, in sum? At least starting out, if you don’t have any connections your best bets are going to be a job board of some sort, or just waiting for the right opportunity to hit your inbox. It really does happen!</p>
+<h2 id="getting-started">Getting Started</h2>
+<p>When you are starting out, you’re probably going to be starting small unless you have some sort of hookup to a major project. This means building a good profile on a job board like upWork and accepting small jobs that you only expect to pay a few hundred dollars in total. At this point you can start working pretty quickly, but it’s unlikely that you’ll be making this whole venture really worthwhile right away, given the opportunity cost of your time. But you’re building a profile with some hopefully satisfied clients, and getting used to how these consulting jobs work.</p>
+<p>At this point you’re giving yourself a crash course in the parts of consulting that your academic and data skills <em>don’t</em> cover. You’re building negotiation skills and client-management skills. You’ll want at least a little of that under your belt before taking any real big projects. Try to focus on taking projects where <em>your skills are handy</em> (i.e. sure you could proofread a college kid’s essay for a few bucks but that’s not really teaching you much in terms of building to something bigger), and that you can <em>turn around quickly.</em> Small projects with well-defined goals are great here. By doing these you’ll be able to build a set of positive reviews (if you’re on a job site) and a general knowledge of how this work operates without getting bogged down by any one project. You’ll also get to know your own work habits and speed better. How long will that project <em>really</em> take you? Do you really have time to do it? You’ll develop a much better internal sense of this.</p>
+<p>Once you feel like you’ve got a handle on it you can go for bigger projects, and be more likely to land them because of your track record and improved ability to sell yourself to this audience. Bigger projects are generally better once you know how to handle them (see How Can You Deal with Clients below).</p>
+<p>How much should you charge starting out? Don’t undersell yourself. If you’re on a job board, check what other people charge. You may be surprised. If you’re just playing around and trying to get a few small contracts under your belt, sure, charge fifty bucks an hour or something. But once you’re actually trying to earn money, or being asked to take on something that will actually compete for time with the rest of your busy schedule, you should charge what the market will bear! And the market will bear a fair amount. $100/hour is a pretty low-end amount for an academic with data skills. I charge different clients between $90 (for long-time clients with consistent low-difficulty work) to $150/hour (for new clients) these days, but I already get more offers than I can handle and so that $150 could probably be higher. Keep in mind that clients will often take too-low wages as an indicator of poor quality. Maybe it’s just the upWork algorithm but whenever I raise my price I get flooded with new job requests. A high hourly rate will also deter people who do not actually want to pay you (see How Do You Deal with Clients? below).</p>
+<p>Whatever hourly rate you land on, if you come to a project that pays for the final deliverable rather than hourly, you should think of that project in terms of how much time it will take you and charge based based on your hourly rate, plus a markup since you’re taking the risk of the project requiring more time than you expect. You can even be explicit about it. I will often tell people asking for project-based payment “My hourly rate is $<span class="math inline">\(X\)</span>. I expect this will take <span class="math inline">\(Y\)</span> hours. So I will charge <span class="math inline">\(X*(Y+Z)\)</span> to cover the possibility that it will take longer. Or if you prefer, we can do an hourly rate, and maybe you won’t need to pay for <span class="math inline">\(Z\)</span>.”</p>
+<p>One last thing - in the “figure this whole consulting thing out and get established” phase, since the projects you’re taking are smaller you’re likely to stumble upon some odder or more fun ones. Go for it, this is your time. You can definitely afford to cut your rate for someone offering you an evening of entertainment. This was the stage of my freelancing when I was definitely happy to write assignment guides or check someone’s answers on their game theory homework, because I think game theory homework is fun and I miss being assigned it. This is the person you’ve chosen to read an article by and take advice from. (Note: when a student contacts you offering money to solve their homework or write their essay for them, obviously not something an academic should be doing, instead offer to write them an <em>assignment guide</em>, which includes no solutions but is a set of tips and nudges in the right direction to help them solve the assignment themselves. A surprising number of them will take you up on it).</p>
+<h2 id="how-can-you-deal-with-clients">How Can You Deal with Clients?</h2>
+<p>Managing (and selecting) clients is a task that is really very different from something a typical academic is going to run into. Their expectations, desires, and ways in which they will take advantage of you are entirely different from the expectations, desires, and advantage-taking-ways of an advisor, boss, or purse-string-holder in academia.</p>
+<h3 id="which-clients-should-you-avoid">Which Clients Should You Avoid?</h3>
+<ul>
+<li>Avoid any clients who are incapable of telling you what they want you to do. They will decide, after you have done it, that they actually wanted something else.</li>
+<li>Avoid anyone who wants to spend a lot of time negotiating the price with you or asks for a lot of discounts, especially if the project isn’t that big anyway. Negotiating is fine but if it’s more than one round of back-and-forth and the amounts you’re negotiating over aren’t enormous, start looking for the exit. Avoid these people for four reasons: (1) you don’t get paid for that negotiating time and headache, (2) after they hire you they will likely be trying to find ways to stretch their dollar even further - asking for free extra little tasks, asking for partial refunds on pieces of the project that didn’t go as planned, and (3) your time is valuable and scarce and thus expensive. If they don’t want to pay your rate they they don’t have to, but you aren’t obliged to work for them. You can literally tell people who ask for big discounts that sorry, you know you’re expensive, but that’s how it is, there’s probably someone else out there cheaper. I do that. People get it. Finally, (4) I can only speculate as to why, but every client who ever ended up <em>really</em> mistreating me - yelling at me, belittling me, trying to jump the bill, gaslighting me about what work I’d agreed to do, etc. - <em>every</em> single one started out as an exhaustive negotiation over nickels and dimes.</li>
+<li>Avoid anyone who wants to have a whole lot of scheduled phone or video calls with you to check up. Video calls aren’t inherently a problem but I mean people who want constant progress check-ins in the form of calls, more than would actually be necessary for the project. Lots of expected calls should be a dealbreaker if they’re not offering to pay for your time on the call. Run. If the contract being offered <em>is</em> such that you get paid for your call time (even if payment isn’t hourly-rate, the calls should be listed as a part of the work you’re getting paid for), then it’s not a dealbreaker, but it’s not great either. You’re a busy academic. Consulting fits into the cracks in your schedule. I do the majority of my consulting work at night after the family is in bed. As soon as consulting work has to find a place <em>on</em> your regular work-hours schedule, it is consuming a much more valuable portion of your day.</li>
+<li>Avoid anyone who wants you to do bad work, at least most of the time. You’ll get plenty of requests from people who have clearly decided what they want the data to show, and they want you to squeeze and squash the data until that happens. Or they want you to specifically use a method you know is garbage. Sometimes you can talk these people out of it - you’re the expert after all. Explain why what they’re asking you to do is a bad idea. But sometimes they still want it anyway. If it seems like the only one getting hurt by the bad analysis is them, well, it’s their grave, it’s up to you at that point if you want to help them in. But if the results are going to end up “informing” the public or affecting people, do the right thing and back out!</li>
+</ul>
+<p>And finally, as time goes on, shift towards avoiding clients with small one-off projects more and more. There’s nothing wrong with these, but new projects require setup, price negotiation, figuring out the goals, learning the ropes, etc.. You’ll be using your time more effectively, and also have much more predictable responsibilities and income, with bigger projects. These bigger projects can run from month-long projects that pay 1-2 thousand dollars to multi-year engagements as the resident data consultant for a small company. So once you have enough big projects to fill your clock, avoid taking on small ones.</p>
+<h3 id="successfully-working-with-clients">Successfully Working with Clients</h3>
+<p>There are lots of things to consider when handling clients - being kind and prompt, returning work quickly, not letting them take advantage of you, and so on. But the most difficult and important part about working with clients, and what I’ll focus on here, is handling their expectations. This includes what their expectations are of you and also what their expectations and desires are for the work you will give them. The reason this is so difficult is that private clients often have very different expectations and desires than you’ve been trained to think about in academia. So there’s a minor culture shock.</p>
+<p>That’s your first goal, then. Figure out what it is they actually want. As a general rule, private clients are more interested in <em>results</em> than they are in <em>methods</em>. What are the takeaways? A reasonable data-driven hint as to what they should do is usually way more valuable to them than a caveat-filled conclusion that you’re absolutely certain has been supported by the data and buttressed against any possible criticisms.</p>
+<p>With that in mind, you get a little bit of freedom to not be <em>quite</em> as rigorous as you would be in an academic setting. But this also means that you’ll be doing a little dance of figuring out exactly where the line is between “result that’s not quite as robust as something I’d try to publish in an academic journal” and “result I don’t believe at all.”</p>
+<p>This leads us back to handling client expectations. Letting them know what you can and can’t do with the data that’s been provided is key, and will help keep them from expecting more of the data than can actually be achieved.</p>
+<p>Doing all of this properly requires understanding how clients think about the kind of work you do, a topic about which I had a <a href="https://twitter.com/nickchk/status/991397611306303488">Twitter thread</a> long ago. Many private clients think of statistical analysis as a product they buy in a store that solves a problem for them, rather than as a tool for unconvering some sort of truth.</p>
+<p>This means that, at least initially, many of your clients will be expecting you to provide results that justifies a particular already-made choice, or looks good for them in some way, or provides a very clear and distinct answer to a super-important question.</p>
+<p>Obviously, results from data do not always fall this way. This can lead to problems. Clients will ask for a zillion variations until some result implies what they want (whether or not the result is mush by that point), they’ll ask for a refund, or, worse, they’ll string you along with revisions until something pops out that they like.</p>
+<p>In my experience, the best salve here is to simply be honest. Remind clients that if they already had a conclusion in mind there’d be no need for data analysis. Tell them that, yes, in your expert opinion this really <em>is</em> what the data says. This approach doesn’t always work, but it works sometimes, and I’ve yet to find a better alternative.</p>
+<p>Letting clients know what they will, and will not, get from you is a pretty good idea in general. Yes, you can build a predictive model. No, you can’t guarantee it will boost sales.</p>
+<p>There are a bunch of other skills that you’ll learn in the process of doing consulting work that will help you manage clients better, but I’ve been thinking through them and for the life of me I can’t think of any that I could adequately inform you about through text. So you’ll just have to work past those issues yourself.</p>
+<p>one thing I have left out, though, is managing academic clients. You’ll actually get a lot of these, or at least I do. This makes sense - you’re an academic. They need academic skills. Academic clients range from students wanting help with their assignments up to other academics basically hiring a postdoc but with lower commitment.</p>
+<p>Academic clients can be great clients! But some things to keep in mind:</p>
+<ul>
+<li>If the client’s a student, make extremely clear up front that you are helping them but aren’t doing their assignment for them.</li>
+<li>If the client’s a professor, treat them like you treated whoever you may have RA’d for in grad school (if you did that) and you’ll be golden. This isn’t your project and you aren’t a coauthor, do as you’re told. That said, don’t agree to coauthor with them unless you like the project and think you’ve contributed enough. I’ve been offered authorship on an <em>astonishing</em> number of papers that I did some very basic RA-level work on. I’ve always said no. Depending on your affiliation, this can sometimes be a very-transparent play to get a bad article in a bad journal instead of a very-bad journal. Not worth it coming up on a Google search of your name.</li>
+<li>Whoever the client is, there’s sort of an expectation that, as an academic, this is the sort of thing you’d normally contribute to without pay. So the relationship can sometimes become less than business-like. But you can’t help every struggling grad student or assistant professor in the world. Keep it professional, clients need to pay for your time.</li>
+</ul>
+<p>That all said, academic clients can be great, and I will in many cases take lower payments for them. One aspect of freelancing I always enjoy is when grad students with <em>terrible</em> advisors come to me for help. I’ve never worked at a university with PhD students, but I’ve always wanted to be a dissertation advisor. This fills that lil’ gap in my heart. I don’t know where these grad students come up with the money to <em>pay</em> an advisor on an hourly basis (even at a discounted rate), but I’ve been the de-facto dissertation advisor to five students, four of whom ended up with PhDs (plus, served on the actual committee for a sixth, who for the record did not have an awful advisor and brought me in for coauthor-level work on their stats). Loved every minute of it.</p>
+<p>Also, five of you out there are just truly awful PhD advisors, and have your name as dissertation advisor on a student’s CV when you didn’t do jack, I did. I do know who you are.</p>
+<h2 id="managing-your-time">Managing Your Time</h2>
+<p>You’re a busy person who already has a job. Consulting isn’t going to work for you if you can’t manage your time properly so it doesn’t get in the way of your main job (or the rest of your life for that matter).</p>
+<p>When thinking about how to manage your time, there are three big things to keep in mind. The first is in <em>taking on the right amount of work</em>, the second is in <em>taking the kind of work that gives you flexible scheduling</em>, and the third is in <em>avoiding project creep.</em></p>
+<p><em>Taking on the right amount of work.</em> You should have a decent idea about the amount of time you have available to dedicate to consulting. Then, don’t take on more work than will fill that time. This would be easy, except of course that hitting the sweet spot of how much work you’ll take on can be very difficult.</p>
+<p>This is not the most original of advice, but it’s a good idea to look over a project carefully before committing to it, thinking about how long you expect it to take you, and then realizing that it will almost certainly take you longer than that. Pad your expected contribution, because you have no idea where surprises will lurk for you! This is important both for managing your time and in quoting prices to clients - anyone asking for an expected amount of time something will take you (if they’re paying hourly) or a quote (for project-based payment) should get a number that is at the very least 20% above the time you actually think it will take you.</p>
+<p>Taking on the right amount of work also means favoring projects where you have a better idea of where the endpoint is. Projects that change and expand as time goes on make it very difficult to manage your time (see <em>avoiding project creep</em> below).</p>
+<p><em>Pursuing flexible scheduling.</em> The easiest way to fit consulting work into a life that already has an academic job in it is to do work that can be done any time. This means avoiding work that requires lots of scheduled calls or that otherwise have to be done during business hours.</p>
+<p>This also means limiting the number of projects you have with very tight deadlines. Outside of grant-writing, deadlines for academic work are often suggestions - conference submission dates get pushed back, referee reports languish, the edit you told your coauthor would be done next week is, uh, well. There are plenty of hard deadlines in <em>academia</em>, university admin deadlines and so on, but not so much for <em>academic work</em>. If you need more time to do it right, then take more time until it’s done right. Private clients do not usually see things this way. If there’s a deadline, you need to meet it.</p>
+<p>Tight deadlines do not give you flexibility, though. If I have a week to do a four-hour project, I can do 45 minutes a night and be done easy. If I have until tomorrow, well that’s my day. Flexibility out the window!</p>
+<p>So unless it’s a really good offer (like, say, a legal consulting gig), don’t take projects that you’ll have to crunch to finish. And if you have some control over the deadline, don’t feel bad about pushing it out. Remember the padding for how many hours it will take you to do the project? Well, take that padded number and think about how many <em>days</em> it will take you to cobble together that much worktime. Then pad <em>that</em>.</p>
+<p>It does not feel good to have to push back working on a research project you’re excited about because you gave a client a too-short deadline. So don’t put yourself in that situation!</p>
+<p><em>Avoiding project creep.</em> Certain projects have ways of <em>expanding</em> as they go along. Sometimes this is fine. Projects that go well get sequels, so to speak, and if it’s work you like, and you can plan ahead for those sequels, then great! That’s just a return customer. But some projects expand in bad ways that can leave you frustrated and eternally unable to bid farewell to the project. Unfortunately it can be tricky to catch these up front a lot of the time, but there are warning signs.</p>
+<p>One major warning sign is if you are going to be working with data that you can tell is super noisy or just isn’t very good, or are being asked to use bad methods. Data analysis works to some degree on a garbage-in-garbage-out principle. In my experience, clients are very willing to push back on “garbage-out,” and will tell you that results aren’t plausible and need to be fixed (good instincts born of deep contextual knowledge!), but they will often fail to accept “garbage-in” as an explanation (bad instincts born of a lack of data-analytic intuition). Thus begins the project creep where you are asked to try an ever-expanding list of alternate methods so as to find the one magic configuration that produces a believable result. All the while the entire project annoys you because you know the work you’re doing is very, very bad. Plus, if you agreed to project-based payment, you’ll quickly hit the point where the project is no longer a good deal for you, but the marginal cost of <em>just one more variant</em> is low enough that you keep just hoping it will end and they’ll pay up. Worst-case scenario is they try not to pay because they don’t like the result.</p>
+<p>You can avoid some of this by building a maximum number of revisions into your project-based contract. This is harder to squirm out of if you’re on an hourly contract though. What you should really do is do a very careful assessment of whether the data is likely to produce anything believable, and back out if it’s not up to the task. You can try saying something to the client ahead of time like “hey I’ll run this if you want. It will probably be garbage though,” but almost every time I’ve done that they’ve said to go ahead anyway and the same cycle has occurred.</p>
+<p>On bigger projects where you’re a consultant working with a team, you can avoid some of this project creep by being sure to talk extensively about the data <em>directly with the person who knows the most about it.</em> The number of projects I’ve had to redo because the middleman between the data person and me didn’t explain something properly and I had to redo everything at the last second!</p>
+<p>As an aside, you will also often find it worthwhile to <em>anticipate project creep</em> before it happens, and prepare yourself for it. The only advice I really have to this end is to always write your code in a way that’s easy to expand upon. Private clients, just like Twitter commenters, <em>love</em> to look at your final result and say “neat, but how about you look at that same result in these twenty different subcategories?” At that point you’ll be kicking yourself if you haven’t already written your code in such a way that you can just loop over it to get results by subcategory.</p>
+<h2 id="dont-forget-taxes">Don’t Forget Taxes</h2>
+<p>This section is completely US-centric. It seems important for this section to point out that I’m not an accountant and this is not, like, professional tax advice or anything. So, really, double-check everything I’m telling you against an official source. My only credentials are that I have been doing my own taxes a long time and know my way around this stuff pretty well.</p>
+<p>Consulting income is indeed income. If you’ve only ever worked, like, actual jobs before with W-2s and such it can be easy to forget that that one-time project you did in May that paid like $800 is also income that you have to pay taxes on. In fact, there are a few things that might change about the way you do taxes if you start doing substantial amounts of consulting. For one, you might not be paying taxes just once a year any more (so if you start getting real into consulting, don’t think you can just wait until April and tack on an amount and see what happens, you may be in for some late fees).</p>
+<p>Things to note, especially if you are doing your own taxes:</p>
+<ul>
+<li>You won’t get W-2’s for your consulting work, so don’t wait around for them to come, or think that you don’t have to report the income because you didn’t get a W-2.. For bigger clients (or job boards like upWork) you’ll likely get a 1099. But even if it’s for a smaller client not on a job board, you’ll still need to report the income. So keep track of it!</li>
+<li>As soon as you start doing consulting work. you’re a business! A sole proprietorship. That doesn’t mean you have to do the whole rigamarole of filing business taxes and registering as a business, though. For the most part, if you want you can just keep doing your regular ol’ individual-person taxes, and there are just a few additional forms to add with places to put your non-regular-job income.</li>
+<li>Your typical paycheck from a job will helpfully withhold taxes for you so you don’t need to think about it. No longer! You need to withhold your own taxes. Figure out ahead of time what your tax rate is (which includes income taxes and some other stuff I’ll talk about here), and set aside that portion of all your consulting income. Further, you need to <em>send</em> those withheld funds into the IRS four times a year. See <a href="https://www.irs.gov/pub/irs-pdf/f1040es.pdf">Form 1040ES</a>. If your state has income taxes it will likely have a similar process.</li>
+<li>You’ll need to report this income on a Schedule C form (and then also Schedule 1) when doing your 1040.</li>
+<li>On that Schedule C is a spot to report business expenses. Yep, you have business expenses now! This is not the same as your regular-ol’ 1040 itemized-or-standard deduction for personal income. Business expenses are counted directly against your business income. Make sure only to report stuff that you <em>only</em> use for your consulting. Buy a laptop for both your consulting work <em>and</em> your academic job? Not a deduction. But run an AWS server for your clients? Bought a Tableau license for your consulting? Deduct it. There are even ways to deduct part of your rent/mortgage if you have a room in your home that is <em>only</em> used as your office for consulting work.</li>
+<li>You don’t just need to withhold income tax. Payroll taxes apply to consulting income, too. Plus, payroll taxes are split between employer and employee. You’re both now! So you’ll be paying both sides (although one of those sides is itself tax-deductible). Fun. File a Schedule SE (“self-employment tax”).</li>
+<li>On the flip side, check out the qualified business income deduction! You qualify for that now (or at least I do). Sweet, eh?</li>
+<li>If you start doing a <em>lot</em> of consulting and plan to keep it that way, you might consider setting up an S-corp (pass-through corporation). This can reduce your payroll tax burden (as some portion of your consulting income comes due to you as owner of the S-corp rather than to you as someone who works in the S-corp) and also changes some other stuff. You’ll have to pay to incorporate, which is a downside, and you’ll have to start filing quarterly 941 forms and also annual business taxes (including unemployment on a 940). Oh yeah and the filing months for the quarterly 941 forms don’t line up exactly with the quarterly 1040ES forms for some reason. Your taxes will get complex enough at this point that you’ll definitely want to pay an accountant to do them for you, which will likely cost a couple thousand, at least for the first year (after which point you can crib off their work if you want). I have an S-corp and I’m not yet sure if it has turned out to be a good idea. A year and a half into it and I have <em>maybe</em> saved enough taxes to offset the setup costs. Maybe.</li>
+<li>Tax rules are very complex to figure out, but tax <em>forms</em> are pretty simple little homework assignments. I strongly recommend making an Excel workbook that does the math of the 1040 and all its sub-forms for you, and also has a place for you to enter all the payments you’ve received (which feeds straight into the appropriate 1040 cells). This is not very much work to set up, and once you’re done you sort of have your own lil TurboTax. Benefits include: (1) your taxes are already done when it comes time to file taxes, (2) you definitely want to keep good books now that you’re doing your own. The part of this process where you set up a spot to record all the times you get paid means you’re now keeping good books. And (3) assuming you’ve also included the 1040ES worksheet in there, which you should, and also a place to put in all your actual W-2 income with witholding and stuff, you’ll know exactly how much you need to mail in when it’s quarterly-taxes time.</li>
+</ul>
+<h2 id="and-so">And So</h2>
+<p>Consulting! Freelancing! Try it out. If you have the time, sign up for upWork and do a few jobs, see if you like it. You may get a lot of interesting and educational experiences from it, too, in addition to being paid. It doesn’t even have to become an enormous part of what you do, since you can largely set your own limits on how much you work. I’ve found it pretty rewarding in many ways, and hopefully this article can help you avoid some of the headaches I ran into.</p>
+<p>Don’t do more of it than you want to. But also don’t do less of it than you want to. Do the correct amount of it. This is useful advice.</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
+<!--radix_placeholder_article_footer-->
+<div class="article-footer">
+  <p class="social_footer">
+    <span class="article-sharing">
+      Share: &nbsp;
+      <a href="https://twitter.com/share?text=Consulting%20and%20Freelancing%20in%20Academia&amp;url=https%3A%2F%2Fnickch-k.github.io%2FSomeThoughts%2Fposts%2F2021-11-19-consulting-and-freelancing-in-academia%2F">
+        <i class="fab fa-twitter"></i>
+      </a>
+      <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3A%2F%2Fnickch-k.github.io%2FSomeThoughts%2Fposts%2F2021-11-19-consulting-and-freelancing-in-academia%2F&amp;title=Consulting%20and%20Freelancing%20in%20Academia">
+        <i class="fab fa-linkedin"></i>
+      </a>
+      <a href="https://www.facebook.com/sharer/sharer.php?s=100&amp;p[url]=https%3A%2F%2Fnickch-k.github.io%2FSomeThoughts%2Fposts%2F2021-11-19-consulting-and-freelancing-in-academia%2F">
+        <i class="fab fa-facebook"></i>
+      </a>
+    </span>
+  </p>
+</div>
+<!--/radix_placeholder_article_footer-->
+</div>
+
+<div class="d-appendix">
+</div>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+<!--radix_placeholder_site_after_body-->
+<!--/radix_placeholder_site_after_body-->
+<!--radix_placeholder_appendices-->
+<div class="appendix-bottom">
+  <h3 id="citation">Citation</h3>
+  <p>For attribution, please cite this work as</p>
+  <pre class="citation-appendix short">Huntington-Klein (2021, Nov. 19). Some Thoughts: Consulting and Freelancing in Academia. Retrieved from https://nickch-k.github.io/SomeThoughts/posts/2021-11-19-consulting-and-freelancing-in-academia/</pre>
+  <p>BibTeX citation</p>
+  <pre class="citation-appendix long">@misc{huntington-klein2021consulting,
+  author = {Huntington-Klein, Nick},
+  title = {Some Thoughts: Consulting and Freelancing in Academia},
+  url = {https://nickch-k.github.io/SomeThoughts/posts/2021-11-19-consulting-and-freelancing-in-academia/},
+  year = {2021}
+}</pre>
+</div>
+<!--/radix_placeholder_appendices-->
+<!--radix_placeholder_navigation_after_body-->
+<!--/radix_placeholder_navigation_after_body-->
+
+</body>
+
+</html>

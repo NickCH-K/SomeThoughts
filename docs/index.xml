@@ -12,11 +12,18 @@
       <link>https://nickch-k.github.io/SomeThoughts</link>
     </image>
     <generator>Distill</generator>
-    <lastBuildDate>Fri, 12 Nov 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 19 Nov 2021 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>Consulting and Freelancing in Academia</title>
+      <dc:creator>Nick Huntington-Klein</dc:creator>
+      <link>https://nickch-k.github.io/SomeThoughts/posts/2021-11-19-consulting-and-freelancing-in-academia</link>
+      <description>A guide to getting started and doing well at consulting and freelancing, and avoiding some speed bumps. This is aimed squarely at people in academia who are good at working with data.</description>
+      <guid>https://nickch-k.github.io/SomeThoughts/posts/2021-11-19-consulting-and-freelancing-in-academia</guid>
+      <pubDate>Fri, 19 Nov 2021 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Identification by Heteroskedasticity</title>
       <dc:creator>Nick Huntington-Klein</dc:creator>
-      <dc:creator/>
       <link>https://nickch-k.github.io/SomeThoughts/posts/2021-11-16-identification-by-heteroskedasticity</link>
       <description>A brief note on a method for how we can identify a causal effect using assumptions about heteroskedasticity instead of correlations.</description>
       <guid>https://nickch-k.github.io/SomeThoughts/posts/2021-11-16-identification-by-heteroskedasticity</guid>
