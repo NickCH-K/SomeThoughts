@@ -133,7 +133,7 @@ $$ Y = \beta_0 + \beta_1X+\varepsilon $$
 
 This error term is not the same as the residual. The residual is what we get if we actually get a sample of data, estimate our OLS coefficients, and compare the OLS predictions against the actual $Y$ values. The error, on the other hand, is the difference between the actual $Y$ value and what the OLS would predict *if we had full population data*.
 
-An effective, if wordy, translation is this: "In truth, there's a whole bunch of stuff that determines the value of $Y$. The model we write out is telling us literally everything about what determines $Y$ (that's why it's $Y=$, not "$Y$ is related to..."). Our model contains some stuff ($X$), but leaves out other stuff. That other stuff has to be somewhere, so it must be in the error ($\varepsilon$)."
+An effective, if wordy, translation is this: "In truth, there's a whole bunch of stuff that determines the value of $Y$. The model we write out is telling us literally everything about what determines $Y$ (that's why it's $Y=$, not  "$Y$ is related to..."). Our model contains some stuff ($X$), but leaves out other stuff. That other stuff has to be somewhere, so it must be in the error ($\varepsilon$)."
 
 ## OLS Can be Biased
 
@@ -161,13 +161,13 @@ Since we often want to use our OLS estimates to make inferences about the popula
 
 In the regression following from the model $Y = \beta_0+\beta_1X+\varepsilon$, if we assume that $\varepsilon$ has a constant variance $\sigma^2$, then the sampling distribution of our estimate $\hat{\beta}_1$ is centered around the population value of that coefficient $\beta_1$, and has a standard deviation of
 
-$ se(\hat{\beta}_1) = \sqrt{\frac{\sigma^2}{Var(X)}} $
+$$ se(\hat{\beta}_1) = \sqrt{\frac{\sigma^2}{Var(X)}} $$
 
 or in the multivariable context, the very similar
 
-$ Var(\hat{beta}) = \sigma^2(X'X)^{-1} $
+$$ Var(\hat{beta}) = \sigma^2(X'X)^{-1} $$
 
-where $se(\hat{\beta}_1)$ is then the square root of the first element of the trace of $Var(\hat{beta})$.
+where $se(\hat{\beta}_1)$ is then the square root of the first element of the trace of $Var(\hat{\beta})$.
 
 How can we interpret this? Well, we have a standard error that grows the more the error term varies ($\sigma^2$), and shrinks the more $X$ varies ($/Var(X)$). The error term contains all the *other stuff going on with $Y$* other than what's in the model. So we can say "The difficulty in figuring out exactly what our slope coefficient is is based on how much *other* stuff there is going on with $Y$ ($\sigma^2$) relative to the parts we're actually interested in ($Var(X)$). The more noise there is relative to signal, the less we can see, and the less precise we'll be."
 
