@@ -165,7 +165,7 @@ $$ se(\hat{\beta}_1) = \sqrt{\frac{\sigma^2}{Var(X)}} $$
 
 or in the multivariable context, the very similar
 
-$$ Var(\hat{beta}) = \sigma^2(X'X)^{-1} $$
+$$ Var(\hat{\beta}) = \sigma^2(X'X)^{-1} $$
 
 where $se(\hat{\beta}_1)$ is then the square root of the first element of the trace of $Var(\hat{\beta})$.
 
