@@ -12,7 +12,16 @@
       <link>https://nickch-k.github.io/SomeThoughts</link>
     </image>
     <generator>Distill</generator>
-    <lastBuildDate>Wed, 16 Feb 2022 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 17 May 2022 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>Fun With Parallel Trends</title>
+      <dc:creator>Nick Huntington-Klein</dc:creator>
+      <link>https://nickch-k.github.io/SomeThoughts/posts/2022-05-17-fun-with-parallel-trends</link>
+      <description>What havoc can we wreak when we realize that parallel trends is but a functional form assumption?</description>
+      <guid>https://nickch-k.github.io/SomeThoughts/posts/2022-05-17-fun-with-parallel-trends</guid>
+      <pubDate>Tue, 17 May 2022 00:00:00 +0000</pubDate>
+      <media:content url="https://nickch-k.github.io/SomeThoughts/posts/2022-05-17-fun-with-parallel-trends/fun-with-parallel-trends_files/figure-html5/unnamed-chunk-1-1.png" medium="image" type="image/png" width="1248" height="768"/>
+    </item>
     <item>
       <title>Ordinary Least Squares, Translated into English</title>
       <dc:creator>Nick Huntington-Klein</dc:creator>
